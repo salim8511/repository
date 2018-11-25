@@ -1,0 +1,1714 @@
+@charset 'utf-8';
+
+/* sub common */
+.right-bar:after {content:'|';color:#dcdcdc;margin:0 10px}
+
+.snb-wrap .subPos-07 .subMDp-1-5 .subMDp-2 {display:none !important;}
+
+
+/* ì „ì²´ë©”ë‰´ */
+.total-menu-wrap {top: 172px;}
+.gnb-wrap > ul > li > .gnb-tit-wrap {top:172px}
+.gnb-wrap > ul > li.topMenuOn > a {color:#6a80db}
+.gnb-wrap > ul > li > a {position:relative;}
+.gnb-wrap > ul > li > a:after {display:block;position:absolute;left:0;bottom:-3px;width:100%;height:3px;content:'';}
+.btn-total-menu {position:relative;}
+.btn-total-menu:after {display:block;position:absolute;left:0;bottom:-3px;width:100%;height:3px;content:'';}
+
+/* content */
+.contents.sub {/* position:relative;z-index:20; */}
+.contents-wrap {width:1100px;min-height:600px;margin:0 auto;padding-bottom:80px}
+
+/* sub */
+.sub-top-wrap {height:46px;border-top:1px solid #3572c4;background:#fff;}
+.sub-top-wrap .inner-wrap {height:46px;border-bottom:1px solid #d5dbeb;}
+.sub-navigation {float:right;}
+.sub-navigation li {float:left;}
+.sub-navigation li:first-child:before  {margin:0;content:'';}
+.sub-navigation li + li:before {content:'>';display: inline-block;margin: 14px 3px 0 3px;}
+.sub-navigation li a{display:inline-block;font-size:13px;padding:15px 2px;}
+.sub-navigation li:first-child a {width:20px;background:url(/site/kotranews/images/sub/icon-home.png) center center no-repeat;text-indent:-999em;}
+
+
+#snsMain {position: absolute;right: 0;top: -45px;}
+#snsMain:after {display:block;content:'';clear:both;}
+#snsUl {float:right;}
+#snsUl li {float:left;background:url(/site/kotranews/images/sub/icon-sub-sns-split.png) 1px center no-repeat;margin-left:4px;}
+#snsUl li:first-child{display:none;}
+#snsUl li + li {background-position:0 center}
+#snsUl li + li + li  {background-position:-34px center}
+#snsUl li + li + li + li {background-position:-68px center}
+#snsUl li + li + li + li + li {background-position:-102px center}
+#snsUl li + li + li + li + li + li {background-position:-136px center}
+
+#snsUl li a {display:block;text-indent:-999em;width:29px;height:29px;}
+#snsUl li + li + li a  {width:29px;height:29px;}
+
+
+#snsMainNew {position: absolute;right: 0;top: -45px;}
+#snsMainNew:after {display:block;content:'';clear:both;}
+#snsUlNew {float:right;}
+#snsUlNew li {float:left;background:url(/site/kotranews/images/sub/icon-sub-sns-split-3.png) 1px center no-repeat;margin-left:4px;}
+#snsUlNew li:first-child{display:none;}
+#snsUlNew li + li {background-position:0 center}
+#snsUlNew li + li + li  {background-position:-34px center}
+#snsUlNew li + li + li + li {background-position:-68px center}
+#snsUlNew li + li + li + li + li {background-position:-102px center}
+#snsUlNew li + li + li + li + li + li {background-position:-136px center}
+#snsUlNew li + li + li + li + li + li + li {background-position:-170px center}
+#snsUlNew li + li + li + li + li + li + li + li {background-position:-204px center}
+#snsUlNew li + li + li + li + li + li + li + li + li {background-position:-238px center}
+
+#snsUlNew li a {display:block;text-indent:-999em;width:29px;height:29px;}
+#snsUlNew li + li + li a  {width:29px;height:29px;}
+
+
+/* snb */
+.left-cotents-box {float:left;width:216px;margin-right:51px;border-top:2px solid #6b6b6b;}
+.sub-tit-area {padding-top:31px;padding-bottom:31px;background:#f7f7f7;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;text-align:center;}
+.sub-tit-area h3 {font-size:25px;color:#5b5b5b;}
+.sub-tit-area h3.blue {color:#3471c1;}
+
+.snb-wrap {overflow:hidden;padding:10px 0;border-left:1px solid #e6e6e6;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6}
+.snb-wrap > ul {}
+.snb-wrap > ul > li {position:relative;overflow:hidden;}
+.snb-wrap > ul > li:before {display:inline-block;position:absolute;right:-10px;top:16px;width:5px;height:7px;transition:all .3s;content:'';background:url(/site/kotranews/images/common/arrow-right.png) no-repeat;}
+
+.snb-wrap > ul > li.subMenuOn {overflow:visible;height:auto;}
+
+.snb-wrap > ul > li:hover:before,
+.snb-wrap > ul > li.subMenuOn:before {right:20px;}
+.snb-wrap > ul > li > a {display:block;padding:10px 25px 10px 19px;line-height:1.5;color:#393939;}
+.snb-wrap > ul > li:hover > a {font-weight:bold;}
+.snb-wrap > ul > li.subMenuOn > a {font-weight:bold;}
+.snb-wrap > ul > li > ul {display:none;}
+.snb-wrap > ul > li.subMenuOn > ul {display:block !important;position:relative;padding:0px 15px 10px 25px;}
+.snb-wrap > ul > li.subMenuOn > ul:before {display:inline-block;width:13px;height:8px;position:absolute;right:14px;top:-22px;background:url(/site/kotranews/images/common/arrow-rightpng) no-repeat;content:'';}
+
+.snb-wrap > ul > li.subMenuOn > ul > li > a {display:block;position:relative;padding-left:12px;color:#000;line-height:30px;/* white-space:nowrap; */}
+.snb-wrap > ul > li.subMenuOn > ul > li > a:before {display:inline-block;position:absolute;left:0;top:13px;width:4px;height:3px;content:'';background:#888888}
+
+.snb-wrap > ul > li.subMenuOn > ul > li.subMenuOn > a,
+.snb-wrap > ul > li.subMenuOn > ul > li > a:hover {color:#3474c0;font-weight:bold;}
+.snb-wrap > ul > li.subMenuOn > ul > li > a:hover:before,
+.snb-wrap > ul > li.subMenuOn > ul > li.subMenuOn > a:before {background:#3474c0}
+.snb-wrap li > a[data-seed="kotranews_07030100000000000000"]{white-space:nowrap;letter-spacing:-1px;}
+
+
+.hot-rank {display:none;position:relative;padding:15px 0 0 0;margin-bottom:28px;border-bottom:1px solid #d7d7d7;}
+.hot-rank > p {padding:0px 10px;font-size:17px;color:#000;}
+.hot-rank .more {position: absolute;right:10px;top:16px;padding-left:13px;background:url(/site/kotranews/images/common/icon-plus-lightgray.png) 0 5px no-repeat;color:#000;}
+.hot-rank .list {padding:15px 11px;}
+.hot-rank .list li {margin-bottom:11px; overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal;}
+.hot-rank .list li:last-child {margin-bottom:0;}
+.hot-rank .list li a {color:#393939;line-height:1.35;}
+.hot-rank .list li a:before {display:inline-block;width:17px;height:16px;margin-right:2px;content:'1';background:#d72e2e;border-radius:3px;color:#fff;text-align:center;font-size:12px;}
+.hot-rank .list li:nth-child(2) a:before {content:'2';}
+.hot-rank .list li:nth-child(3) a:before {content:'3';}
+.hot-rank .list li:nth-child(4) a:before {content:'4';background:#384658;}
+.hot-rank .list li:nth-child(5) a:before {content:'5';background:#384658;}
+.hot-rank .list li:nth-child(6) a:before {content:'6';background:#384658;}
+.hot-rank .list li:nth-child(7) a:before {content:'7';background:#384658;}
+.hot-rank .list li:nth-child(8) a:before {content:'8';background:#384658;}
+.hot-rank .list li:nth-child(9) a:before {content:'9';background:#384658;}
+.hot-rank .list li:nth-child(10) a:before {content:'10';background:#384658;text-align:left;padding-left:1px;}
+
+
+
+/* ì‹¬ì¸µë³´ê³ ì„œ */
+.report-hot-rank {display:none;position:relative;padding:15px 0 0 0;margin-bottom:28px;border-bottom:1px solid #d7d7d7;border-radius:5px}
+.report-hot-rank > p {padding:0px 10px;font-size:17px;color:#000;}
+.report-hot-rank .more {position: absolute;right:10px;top:16px;padding-left:13px;background:url(/site/kotranews/images/common/icon-plus-lightgray.png) 0 5px no-repeat;color:#000;}
+.report-hot-rank .list {padding:5px;}
+.report-hot-rank .list li {margin-bottom:11px; overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal;}
+.report-hot-rank .list li:last-child {margin-bottom:0;}
+.report-hot-rank .list li a {color:#393939;line-height:1.35;}
+.report-hot-rank .list li a:before {display:inline-block;width:16px;height:16px;margin-right:2px;content:'1';background:#d72e2e;border-radius:3px;color:#fff;text-align:center;font-size:12px;}
+.report-hot-rank .list li + li a:before  {content:'2';}
+.report-hot-rank .list li + li + li a:before  {content:'3';}
+.report-hot-rank .list li + li + li + li a:before  {content:'4';background:#384658;}
+.report-hot-rank .list li + li + li + li  + li a:before  {content:'5';background:#384658;}
+
+
+.right-cotents-box {float:left;width:833px;min-height:680px;}
+.content-tit-wrap {padding:35px 0 27px 0}
+.content-tit-wrap h4 {display:inline-block;padding: 0 18px 4px 0px;font-size:23px;color:#393939;}
+.content-tit-wrap span {display:none;font-size:15px;vertical-align:bottom;}
+.sub-page-content {position:relative;}
+
+.banner-wrap {border-top:1px solid #ebebeb;border-bottom:1px solid #ebebeb}
+
+
+/* **** S : ì„œë¸Œì»¨í…ì¸  **** */
+.btArea.bt_l {position:absolute;right:0;top:-95px;}
+.btArea.bt_l span {background:linear-gradient(#F9F9F9,#Fff,#F9F9F9);padding:4px 8px;border-radius:5px;border:1px solid #D0D0D0;}
+.btArea.bt_l span a {color:#525252;font-size:13px;}
+
+
+
+/* ê²Œì‹œíŒ */
+.thumb-type-wrap {margin-bottom:10px;}
+.thumb-type-wrap p {display:inline-block;margin:0px 10px 0 0;color:#5d5d5d;line-height:28px;}
+.thumb-type-wrap select {height:26px;width:73px;color:#5d5d5d;vertical-align:middle;}
+.thumb-type-wrap input[type="submit"] {padding:0 10px;height:28px;background:#0DAB90;color:#fff;border:none;line-height:28px;vertical-align:middle;}
+/*
+.thumb-type-wrap .preview-list {float:left;}
+.thumb-type-wrap .thumb-type {float:right;}
+.thumb-type ul li {float:left;position:relative;width:86px;margin-left:5px;background:#f7f7f7;background:-webkit-linear-gradient(rgba(255,255,255,1),rgba(245,245,245,1));background:-moz-linear-gradient(rgba(255,255,255,1),rgba(245,245,245,1));background:linear-gradient(rgba(255,255,255,1),rgba(245,245,245,1));}
+.thumb-type ul li:after {position:absolute;left:30px;top:6px;display:block;width:1px;height:16px;background:#cfcfcf;content:'';}
+.thumb-type ul li:hover {background:-webkit-linear-gradient(rgba(245,245,245,1),rgba(255,255,255,1));background:-moz-linear-gradient(rgba(245,245,245,1),rgba(255,255,255,1));background:linear-gradient(rgba(245,245,245,1),rgba(255,255,255,1));}
+.thumb-type ul li a {display:block;padding:5px 0 5px 0;border:1px solid #cfcfcf;font-size:14px;border-radius:5px;text-align:center;}
+.thumb-type li.image a {padding-left:26px;background:url(/site/kotranews/images/common/icon-thumb-img.png) no-repeat 5px center;}
+.thumb-type li.list a {padding-left:26px;background:url(/site/kotranews/images/common/icon-thumb-list.png) no-repeat 8px center;}
+.thumb-type li.on a {border:1px solid #ff7430;}
+*/
+
+/* 2016-08-08 ìˆ˜ì • */
+.thumb-type-wrap .preview-list {float:left;}
+.thumb-type-wrap .preview-list span {line-height:inherit;color:#ec3d00}
+.thumb-type-wrap .thumb-type {float:right;}
+.thumb-type ul:after {content:'';clear:both;display:block;}
+.thumb-type ul li {float:left;position:relative;width:27px;height:27px;margin-left:2px;}
+.thumb-type ul li a {display:block;height:100%;text-align:center;text-indent:-999em;background:url(/site/kotranews/images/sub/icon_sort_menu.png) no-repeat;background-color:#dadada;}
+.thumb-type ul li a:hover {background-color:#C5C5C5}
+.thumb-type ul li.on a:hover  {background-color:#3471c0;}
+.thumb-type li.image a {background-position:5px center;}
+.thumb-type li.list a {background-position:-24px center;}
+.thumb-type li.on a {background-color:#3471c0;}
+
+
+
+/* ì•¨ë²”ê²Œì‹œíŒ */
+.bbs-album-list {border-top:2px solid #6f7b89;}
+.bbs-album-list .list > li {position:relative;padding:17px 10px;border-bottom:1px solid #ddd;}
+.bbs-album-list .list > li:hover {background:#FDFDFD}
+.bbs-album-list .list > li > img {float:left;width:135px;height:95px;margin-right:15px;}
+.bbs-album-list .list .tit {margin-bottom:8px;padding-right:170px;font-size:16px;font-weight:bold;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal}
+.bbs-album-list .list .tit img {margin-left:5px;}
+.bbs-album-list .list .con {overflow:hidden;max-height:42px;line-height:1.6;margin-bottom:10px;}
+.bbs-album-list .etc-wrap {}
+.bbs-album-list .etc-wrap li {position:relative;float:left;padding:2px 0;font-size:13px;}
+.bbs-album-list .etc-wrap li:after {margin:0 10px;content:'|';color:#e7e7e7;}
+.bbs-album-list .etc-wrap li.blue {height:18px;color:#6889b9;font-weight:bold;}
+.bbs-album-list .etc-wrap li.blue:after,
+.bbs-album-list .etc-wrap li:last-child:after {content:'';}
+
+.bbs-album-list .etc-wrap li.icon-click {padding: 3px 0px 3px 17px;}
+
+.bbs-album-list .etc-wrap li.icon-like {padding: 3px 0px 3px 20px;}
+.bbs-album-list .etc-wrap li.icon-comment {padding: 3px 0px 3px 20px;}
+.bbs-album-list .etc-wrap li.icon-click:before {content:'';position:absolute;left:0px;top: 0px;width:17px;height:19px;display:block;background:url(/site/kotranews/images/sub/icon-mouse.png) 0 center no-repeat;}
+.bbs-album-list .etc-wrap li.icon-like:before {content:'';position:absolute;left:0px;top: 3px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-like2.png) 0 center no-repeat;}
+.bbs-album-list .etc-wrap li.icon-comment:before {content:'';position:absolute;left:0px;top: 4px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-comment2.png) 0 center no-repeat;}
+
+
+
+/*
+.bbs-album-list .etc2-wrap {position:absolute;right:0;top:5px;}
+.bbs-album-list .etc2-wrap li {position:relative;float:left;padding: 6px 7px 6px 31px;cursor:default;font-size:13px;font-weight:bold;}
+.bbs-album-list .etc2-wrap li.icon-like {padding: 6px 0px 6px 26px;}
+.bbs-album-list .etc2-wrap li.icon-comment {padding: 6px 0px 6px 27px;}
+.bbs-album-list .etc2-wrap li.icon-like:after {content:'';position:absolute;left:7px;top: 6px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-like2.png) 0 center no-repeat;}
+.bbs-album-list .etc2-wrap li.icon-comment:after {content:'';position:absolute;left:7px;top: 6px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-comment2.png) 0 center no-repeat;}
+*/
+
+
+/* íŽ˜ì´ì§• */
+.pagination-wrap {text-align:center;}
+.pagination {display:inline-block;margin-top:30px;}
+.pagination a:hover {text-decoration:none;border:1px solid #0075d9;}
+.pagination > a {display:block;float:left;margin-left:5px;width:25px;height:25px;border:1px solid #afafaf;text-indent:-9999em;}
+.pagination a.page-first {background:url(/site/kotranews/images/common/icon-page-first.png) center center no-repeat}
+.pagination a.page-prev {background:url(/site/kotranews/images/common/icon-page-prev.png) center center no-repeat}
+.pagination a.page-next {background:url(/site/kotranews/images/common/icon-page-next.png) center center no-repeat}
+.pagination a.page-last {background:url(/site/kotranews/images/common/icon-page-last.png) center center no-repeat}
+.pagination ul {float:left;margin-left:5px;}
+.pagination ul li {float:left;margin-left:5px;}
+.pagination ul li:first-child {margin-left:0;}
+.pagination ul li a {display:block;min-width:25px;padding:0 4px;height:25px;border:1px solid #afafaf;text-align:center;line-height:23px;color:#000;}
+.pagination ul li a:hover {border:1px solid #0075d9;}
+.pagination ul li.on a {border:1px solid #0075d9;background:#0075d9;color:#fff;}
+
+
+/* íŽ˜ì´ì§€ ê²€ìƒ‰ */
+/* ìˆ˜ì • 2016-08-09 */
+.bbs-search-page {margin-bottom:30px;border-top:2px solid #7a7a7a;border-right:1px solid #d3dadd;border-left:1px solid #d3dadd;border-bottom:1px solid #d3dadd;}
+.bbs-search-page .bbs-search-top {padding:19px 11px;}
+
+.bbs-search-page .bbs-search-top .bbs-data {float:left;}
+.bbs-search-page .bbs-search-top .bbs-data .user-datepicker {width:163px;background:url(/site/kotranews/images/sub/icon-calender.gif) right center no-repeat;cursor:pointer}
+.bbs-search-page .bbs-search-top .bbs-con {float:right}
+.bbs-search-page .bbs-search-top .bbs-con select {float:left;width:110px;margin-right:5px;}
+.bbs-search-page .bbs-search-top .bbs-con input[type="text"],
+.bbs-search-page .bbs-search-top .bbs-con input[type="search"]{float:left;width:230px;}
+
+.bbs-search-page .bbs-search-top .bbs-con.width100 {}
+
+.bbs-search-page .bbs-search-top .bbs-con button {float:left;margin-left:5px;width:28px;height:28px;text-indent:-9999em;}
+.bbs-search-page .bbs-search-top .bbs-con button.btn-bbs-search {background:url(/site/kotranews/images/common/icon-search-white.png) center center no-repeat #2c3c55;}
+.bbs-search-page .bbs-search-top .bbs-con button.btn-bbs-reflash {background:url(/site/kotranews/images/common/icon-reflash.png) center center no-repeat #4d3894}
+.bbs-search-page .bbs-search-top .bbs-con button.btn-bbs-search-more {background:url(/site/kotranews/images/sub/icon-search-mius.png) 4px 12px no-repeat #00aec8;}
+.bbs-search-page.open .bbs-search-top .bbs-con button.btn-bbs-search-more {background:url(/site/kotranews/images/sub/icon-search-plus.png) center center no-repeat #00aec8}
+
+.bbs-search-page .bbs-search-bottom {display:block;background:#f7fbfd;border-top:1px solid #d3dadd;padding:22px 10px 7px 10px;}
+.bbs-search-page.open .bbs-search-bottom {display:none;}
+.bbs-search-page .bbs-search-bottom .col-con {margin-bottom:15px;}
+.bbs-search-page .bbs-search-bottom .col-con select,
+.bbs-search-page .bbs-search-bottom .col-con input {width: 195px;margin-right:5px;}
+.bbs-search-page .bbs-search-bottom .col-con.col4 select,
+.bbs-search-page .bbs-search-bottom .col-con.col4 input {width:196px;}
+.bbs-search-page .bbs-search-bottom .col-con.col3 select,
+.bbs-search-page .bbs-search-bottom .col-con.col3 input {width:264px;}
+.bbs-search-page .bbs-search-bottom .col-con select:last-child,
+.bbs-search-page .bbs-search-bottom .col-con input:last-child {margin-right:0;}
+
+.bbs-search-page .bbs-search-bottom .bbs-item-code {margin-bottom:15px;}
+.bbs-search-page .bbs-search-bottom .bbs-item-code input {float:left;width:370px;margin-right:5px;}
+.bbs-search-page .bbs-search-bottom .bbs-item-code input + input{width:379px;margin-right:0px;}
+.bbs-search-page .bbs-search-bottom .bbs-item-code a {float:left;display:block;width:52px;margin-right:5px;text-align:center;line-height:28px;height:28px;background:#3376a1;color:#fff;font-weight:bold;}
+
+
+/* íŽ˜ì´ì§€ ê²€ìƒ‰ */
+/* ìˆ˜ì • 2016-07-05 */
+
+.bbs-search-page {margin-bottom:30px;border-top:2px solid #7a7a7a;border-right:1px solid #d3dadd;border-left:1px solid #d3dadd;border-bottom:1px solid #d3dadd;}
+.bbs-search-page .bbs-search-wrap {padding:10px 0;border-bottom:1px solid #d3dadd;background:#f7fbfd;}
+.bbs-search-wrap > div {padding:5px 0}
+.bbs-search-wrap .col-tit {float:left;width:135px;text-align:center;line-height:28px;}
+.bbs-search-wrap .col-con {float:left;}
+
+.bbs-search-wrap .col-con select {margin-right:5px;min-width:180px}
+.bbs-search-wrap .col-con input[type="text"] {margin-right:5px;min-width:160px}
+.bbs-search-wrap .check-area {display:inline-block;line-height:28px;margin-right:5px}
+.bbs-search-wrap .check-area input {margin-right:5px;}
+
+.bbs-search-btn-area {padding:5px 0;text-align: center;}
+.bbs-search-btn-area button {width:28px;height:28px;padding-left:15px;background:url(/site/kotranews/images/common/icon-search-white.png) center center no-repeat #2c3c55;color:#fff;line-height:28px;text-indent:-9999em;}
+.bbs-search-btn-area button + button {padding-left:21px;margin-right:6px;background:url(/site/kotranews/images/common/icon-reflash.png) center center no-repeat #583fab;}
+
+.bbs-search-wrap .col1 .col-con select,
+.bbs-search-wrap .col1 .col-con input{width:400px;}
+.bbs-search-wrap .col2 .col-con select {min-width:160px;}
+.bbs-search-wrap .col2 .col-con input {width:360px;}
+.bbs-search-wrap .col4 .col-con select:first-child {min-width:120px;}
+.bbs-search-wrap .col4 .col-con select:first-child + input {width:240px;}
+
+.bbs-search-wrap .col3 .col-con select,
+.bbs-search-wrap .col3 .col-con input {width:210px;}
+.bbs-search-wrap .col-date .col-con input {width:250px;}
+.bbs-search-wrap .col-date .col-con input + input {margin-left:5px;}
+
+.bbs-search-wrap .col-con > a {display:inline-block;height:28px;padding:0 10px;background:#505a66;color:#fff;line-height:28px;}
+
+
+
+/* í…Œì´ë¸” */
+/**/
+.seed_tbl {-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;transition:all 0.5s ease;border-top:2px solid #3572c4;}
+.seed_tbl .al {text-align:left;}
+.seed_tbl .ac {text-align:center;}
+.seed_tbl .ar {text-align:right;}
+.seed_tbl .vt {vertical-align:top;}
+.seed_tbl .vm {vertical-align:middle;}
+.seed_tbl .vb {vertical-align:bottom;}
+.seed_tbl table {width:100%;border-collapse:collapse;table-layout:fixed;}
+.seed_tbl thead tr {}
+.seed_tbl thead th {position:relative;height:38px;padding:10px;color:#000;border-bottom:1px solid #C3C3C3;background:#F7F7F7;}
+
+
+.seed_tbl table td {padding:10px;}
+.seed_tbl table td {border-bottom:1px solid #e0e0e0;}
+.seed_tbl table tr:last-child td {border-bottom:2px solid #6F6F6F;}
+.seed_tbl table .textDown {word-break:break-word;}
+.seed_tbl table tbody tr:first-of-type td {border-top:0;}
+.seed_tbl table td a {}
+.seed_tbl table td a.bbsTitle {display:inline-block;max-width:80%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+/* ì¶”ì²œë„ì„œ */
+.seed_tbl tbody td .book {width:75px;height:106px;}
+.seed_tbl tbody td .book-tit {margin-bottom:6px;font-size:15px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal;}
+.seed_tbl tbody td .book-con {line-height:21px;max-height:61px;height:auto;}
+
+.seed_tbl .bbs-link {display:inline-block;padding:5px 10px 5px 21px;background: url(/img/hover-link-S.png) #FA8200 no-repeat 7px center;line-height: inherit;background-size: 10px;color:#fff;border-radius:5px;}
+.no-data-colspan {text-align:center;}
+
+.favorite-book-wrap {margin-top:10px;}
+.favorite-book-wrap .list li {margin-bottom:20px;border:1px solid #dfdfdf;border-top:2px solid #3572c4;padding:0;}
+.favorite-book-wrap .list .tit {background:#F7F7F7;border-bottom:1px solid #C3C3C3;}
+.favorite-book-wrap .list .tit a {display:block;padding:8px 20px;font-size:16px;}
+.favorite-book-wrap .favotie-book-list {padding:17px }
+.favorite-book-wrap .favotie-book-list > a {display:inline-block;width:85px;height:121px;margin-right:15px;}
+.favorite-book-wrap .favotie-book-list > a img {width:100%;height:100%;}
+.favorite-book-wrap .favotie-book-list .con {width:697px}
+.favorite-book-wrap .favotie-book-list .con p {color:#1064B1;line-height:1.5;font-weight:bold;margin-bottom:3px;}
+.favorite-book-wrap .favotie-book-list .con p span {margin:0 10px;line-height:1.5}
+.favorite-book-wrap .favotie-book-list .con p span:first-child{margin:0 10px 0 0;}
+.favorite-book-wrap .favotie-book-list .con p + p {color:#373737;font-weight:normal;}
+
+
+/* ë™ì˜ìƒ êµ­ê°€ ì •ë³´ */
+.global-video-wrap {overflow:hidden;height:0;}
+.global-video-box {width:100%;padding:0px 0px 20px 0px;}
+.global-video-box video {width:100%;}
+.global-video-box iframe{width:100% !important;}
+.global-video-box img {width:100%;}
+.global-video-box dl {width:100%;}
+.global-video-box dt {padding:15px 0 10px 0;margin:0 15px 10px 15px;font-size:17px;border-bottom:1px solid #e0e0e0;font-weight:bold;text-align:center;line-height:1.5}
+.global-video-box dd {line-height:1.4;padding:0 15px;}
+.global-video-box dd * {font-family:'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;line-height:1.5 !important;font-size:14px !important;background:none !important;}
+
+.global-video-best-box {}
+.global-video-search {padding:21px;}
+.global-video-search input[type="text"] {float:left;width:218px;min-height:31px;border:1px solid #c7c7c7;border-right:0;}
+.global-video-search input[type="submit"] {float:left;width:31px;height:31px;border:0;background:url(/site/kotranews/images/common/icon-search-white.png) no-repeat center center #db4343;text-indent:-9999em;}
+
+.video-best-wrap {position:relative;margin:0 10px;}
+.video-best-wrap h5 {padding:16px 0 16px 20px;background:#566272;font-size:16px;color:#fff;}
+.video-best-wrap .list li{border-bottom:1px solid #e2e2e2;padding:13px 10px 13px 67px;background:url(/site/kotranews/images/common/icon-play.png) 14px 21px #f2f2f2 no-repeat;}
+.video-best-wrap .list li:last-child {border-bottom:0;}
+.video-best-wrap .list .tit {display:block;}
+.video-best-wrap .list .tit a {display:table-cell;color:#343434;font-weight:bold;width:194px;height:38px;line-height:1.4;vertical-align:middle;}
+.video-best-wrap .list span {display:inline-block;margin-top:4px;font-size:13px;color:#848484}
+.video-best-wrap .more {display:inline-block;padding-left:13px;position:absolute;right:12px;top:18px;background:url(/site/kotranews/images/common/icon-plus-white.png) 0 center no-repeat ;color:#fff;font-size:11px;}
+
+/* ë¦¬ìŠ¤íŠ¸ */
+.video-info {padding-left:27px;background:url(/site/kotranews/images/common/icon-thumb-list-big.png) 0 center no-repeat;font-size:16px;font-weight:bold;}
+.video-global-thumbnail {border-top:2px solid #6f7b89;border-bottom:1px solid #d7d7d7;}
+.video-global-thumbnail > ul {padding:20px 0 10px 0;}
+.video-global-thumbnail > ul > li {float:left;margin-right:20px;margin-bottom:20px;}
+.video-global-thumbnail > ul > li:nth-child(3n) {margin-right:0px}
+.video-global-thumbnail > ul > li .bullet-list {padding:3px 3px 3px 0px}
+.video-global-thumbnail > ul > li .bullet-list li {padding-left:15px}
+.video-global-thumbnail > ul > li .bullet-list li:before {left:5px}
+
+
+.video-global-thumbnail .list li {position:relative;width:264px;padding:0 0 20px 0;border:1px solid #e0e0e0;}
+.video-global-thumbnail .list li > a:before {display:block;width:60px;height:60px;position:absolute;left:50%;top:41px;z-index:10;margin-left:-30px;background:url(/site/kotranews/images/sub/icon-play.png) 0 center no-repeat;background-size:cover;content:'';cursor:pointer}
+.video-global-thumbnail .list img {width:262px;height:140px;margin-bottom:11px;border-bottom:1px solid #e0e0e0}
+.video-global-thumbnail .list .tit {overflow:hidden;display:block;color:#343434;font-weight:bold;width:222px;height:40px;padding:0 20px;margin-bottom:11px;line-height:1.4;}
+.video-global-thumbnail .list .tit strong {}
+
+.video-global-thumbnail .list li a + span {padding-left:20px}
+.video-global-thumbnail .list li a + span + span  {padding-left:0px;padding-right:20px;}
+
+.video-global-thumbnail .list02 > li {width:264px;height:323px;overflow:hidden;}
+.video-global-thumbnail .list02 .preview{display:inline-block;padding:10px;border:1px solid #d9d9d9;background:#f7f7f7;margin-bottom:11px;}
+.video-global-thumbnail .list02 .preview img {width:240px;height:160px;border:1px solid #e0e0e0;}
+.video-global-thumbnail .list02 .tit {height:28px;margin-bottom:11px;padding-bottom:11px;border-bottom:1px solid #e0e0e0;font-size:14px;text-align:center;color:#343434;font-weight:bold;}
+.video-global-thumbnail .list02 .tit strong {display:block;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal;}
+
+.video-hot-rank {display:none;position:relative;margin:20px 0px;}
+.video-hot-rank .tit {background:#566272;padding:13px 0 13px 15px;}
+.video-hot-rank .tit strong {display:block;font-size:16px;color:#fff;}
+.video-hot-rank .list {padding:15px 11px;background:#f2f2f2;}
+.video-hot-rank .list li {margin-bottom:11px; overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal;}
+.video-hot-rank .list li:last-child {margin-bottom:0;}
+.video-hot-rank .list li a {color:#393939;line-height:1.35;}
+.video-hot-rank .list li a:before {display:inline-block;width:16px;height:16px;margin-right:5px;content:'1';background:#d72e2e;border-radius:3px;color:#fff;text-align:center;font-size:12px;}
+.video-hot-rank .list li + li a:before  {content:'2';}
+.video-hot-rank .list li + li + li a:before  {content:'3';}
+.video-hot-rank .list li + li + li + li a:before  {content:'4';background:#384658;}
+.video-hot-rank .list li + li + li + li  + li a:before  {content:'5';background:#384658;}
+
+.video-hot-rank .more {display:inline-block;padding-left:13px;position:absolute;right: 9px;top: 16px;background:url(/site/kotranews/images/common/icon-plus-white.png) 0 center no-repeat ;color:#fff;font-size:11px;}
+
+
+/* ì„¤ëª…íšŒ,ì„¸ë¯¸ë‚˜ìžë£Œ */
+.bbs-tit-wrap {margin-bottom:10px;}
+.bbs-tit-wrap h5,
+.bbs-tit-wrap p {display:inline-block;font-size:16px;color:#515151;font-weight:bold;line-height:28px;}
+
+.bbs-tit-wrap .bbs-tit-search-area {float:right;line-height:28px;}
+.bbs-tit-wrap .bbs-tit-search-area input[type="text"] {float:left;width:232px;min-height:28px;}
+.bbs-tit-wrap .bbs-tit-search-area input[type="submit"],
+.bbs-tit-wrap .bbs-tit-search-area button{float:left;width:28px;height:28px;border:0;background:url(/site/kotranews/images/common/icon-search-white.png) no-repeat center center #444b56;text-indent:-9999em;}
+
+/* ì„¤ëª…íšŒ, ì„¸ë¯¸ë‚˜ ìžë£Œ ë·° */
+.top-line-box {padding:16px;border-top:2px solid #8f97a3;background:#f7f7f7;}
+.top-line-box .video-area {width:801px;}
+.top-line-box .video-area img {width:100%;}
+.top-line-box .tit {padding:16px 25px 13px 25px;margin-bottom:13px;border-bottom:1px solid #d1d1d1;font-size:20px;color:#4f4e4e;font-weight:bold;text-align:center;line-height:1.5}
+.top-line-box .tit .date {display:inline-block;font-size:14px;line-height:1.5;margin-left:10px;vertical-align:middle;}
+.top-line-box .con {margin-bottom:10px;line-height:1.6}
+.tbl-style a.playVideo {min-height: 24px;padding:4px 0 4px 25px;background:url(/site/kotranews/images/sub/icon-play-small.png) 0 center no-repeat;background-size:20px;}
+.tbl-style a.playVideo:hover {text-decoration:underline;}
+
+.btn-file {width:0;height:0;}
+.btn-file + label {display:inline-block;width:77px;height:28px;background:#4265ad;font-size:14px;color:#fff;line-height:28px;}
+
+/* ê²Œì‹œíŒ ë·°íŽ˜ì´ì§€ */
+.btn-bbs-area {position:relative;margin-top:10px;}
+.btn-bbs-area button ,
+.btn-bbs-area a {display:inline-block;width:83px;height:28px;border:none;color:#fff;font-size:14px;text-align:center;line-height:28px;}
+.btn-bbs-area button span {line-height:28px;}
+.btn-bbs-area .orange {background:#db6b48;}
+.btn-bbs-area .gray {background:#545454;}
+.btn-bbs-area .red {background:#97385e;}
+.btn-bbs-area .blue {background:#3b579d}
+.btn-bbs-area .list {padding-left: 25px;background:url(/site/kotranews/images/sub/icon-list.png) no-repeat #3b579d 15px center;}
+
+
+/* ë§Œì¡±ë„ */
+.satisfaction-wrap {margin-top:30px;}
+.satisfaction-wrap h5 {display:inline-block;margin-right: 15px;margin-bottom:11px;font-size:16px;font-weight:bold;}
+.satisfaction-wrap span {display:inline-block;line-height:19px}
+.satisfaction-area {border:1px solid #cecece;}
+.satisfaction-area strong  {display:inline-block;padding:21px 25px;background:#f7f7f7;}
+.satisfaction-area .satis-grade {display:inline-block;margin-left:30px;line-height:57px}
+.satisfaction-area .satis-grade input {margin-right:8px;}
+.satisfaction-area .satis-grade input + label {display:inline-block;background:url(/site/kotranews/images/sub/icon-star.png) no-repeat;margin-right:30px;text-indent:-999em;}
+.satis-grade input#satisfaction5 + label {width:80px;}
+.satis-grade input#satisfaction4 + label {width:65px;}
+.satis-grade input#satisfaction3 + label {width:47px;}
+.satis-grade input#satisfaction2 + label {width:31px;}
+.satis-grade input#satisfaction1 + label {width:15px;}
+.satisfaction-area .btn-sati-complete {float:right;margin:13px 8px 0 0;padding:7px 23px;border:1px solid #cecece;background:#fdf8f6; }
+
+/* ìµœì‹ ë‰´ìŠ¤ */
+.newest-wrap {margin-top: 30px;}
+.newest-wrap h5 {margin-bottom:11px;font-size:16px;font-weight:bold;}
+
+/* ëŒ“ê¸€ */
+.comment-wrap {margin-top:30px;}
+.comment-wrap h5 {display:inline-block;margin-right: 15px;margin-bottom:11px;font-size:16px;font-weight:bold;}
+.comment-wrap span {display:inline-block;line-height:19px}
+.comment-wrap button {line-height:19px;border:1px solid #CACACA;background::#f7f7f7;padding:0 10px;}
+.comment-area {padding:8px;border:1px solid #cecece;background:#f7f7f7;}
+.comment-area .comment-txt {float:left;width:706px;height:101px;border:1px solid #cecece;}
+.comment-area .btn-comment-complete {float:left;width:100px;height:101px;margin-left:9px;padding-left:25px;border:1px solid #cecece;background:url(/site/kotranews/images/sub/icon-check.png) no-repeat 20px center #fdf8f6;text-align:center;line-height:15px;}
+.comment-wrap .comment-list {padding:17px 0;}
+.comment-wrap .comment-list li {padding:13px 0;border-bottom:1px solid #ddd;}
+.comment-wrap .comment-list li p {margin-bottom:9px; color:#515151;}
+.comment-wrap .comment-list li p .id {position: relative;padding-right: 30px;font-weight:bold; }
+.comment-wrap .comment-list li p .id:after {position:absolute;right:0;top:2px;width:1px;height:15px;content: '';background: #dcdcdc;margin: 0 15px;}
+.comment-wrap .comment-list li p + p {margin-bottom:0px;}
+.comment-wrap .comment-list li p a {line-height:1.5;}
+.comment-wrap .comment-list li textarea {margin-bottom:10px;border: 1px solid #cecece;}
+.comment-wrap .comment-list .btn-comment-del {width:15px;height:15px;margin-top:2px;margin-left:13px;border:none;background:url(/site/kotranews/images/sub/btn-comment-del.gif) 0 0 no-repeat;text-indent:-9999em;}
+
+/* ê°„í–‰ë¬¼ë°œë§¤ */
+.gray-box {padding:15px 20px;border-top:2px solid #cfcfcf;border-bottom:1px solid #cfcfcf;background:#f7f7f7;}
+.bullet-speak {padding-left:35px;margin-bottom:11px;background:url(/site/kotranews/images/common/icon-speaker.png) 0 center no-repeat;font-size:18px;color:#393939;}
+.preview-list .btn-search {width: 82px;height: 28px;padding-left: 15px;background: url(/site/kotranews/images/common/icon-search-white.png) 16px 7px no-repeat #4676be;color: #fff;line-height: 28px;}
+.gray-box h5{font-size:18px;color:#393939;margin-bottom:11px;}
+
+.gray-box .buy-col4 li {float:left;width:186px;height:70px;margin-bottom:15px;}
+.gray-box .buy-col4 li+li+li+li+li {height:44px;}
+.gray-box .buy-col4 li:last-child {margin-bottom:0;}
+.gray-box .buy-col4 li strong {line-height: inherit;font-weight: bold;font-size: 15px;}
+.gray-box .buy-col4 li p {line-height: 1.5;margin-top: 3px;}
+
+
+.thumb-type li.time a {background-image:url(/site/kotranews/images/sub/icon_sort_list01.png);background-position:center center;background-size:18px;}
+.thumb-type li.hits a {background-position:-24px 5px;}
+
+.card-list-wrap .list > li {float:left;margin-bottom:20px;padding:19px;border:1px solid #d9d9d9;background:#f7f7f7;}
+.card-list-wrap.col2 .list > li {width:406px;height:231px}
+.card-list-wrap.col2 .list > li:nth-child(2n) {margin-left:20px}
+.card-list-wrap .list > li img {float:left;width:133px;height:191px;margin-right:20px;}
+.card-list-wrap .list > li .book-info {float:left;width:211px;}
+.book-info h6 {font-size:14px;color:#505050;}
+.book-info h6 a {display:block;font-size:14px;color:#505050;cursor:pointer;line-height:1.6;}
+.book-info span.global {font-size:14px;color:#505050;font-weight:bold;display:none;}
+.book-info span.global:before {content:'|';margin-right:6px;font-weight:bold;}
+.book-info .buy-list {padding:9px 0 10px 0;}
+.book-info .buy-list li {line-height:25px;}
+.book-info .buy-list li input {margin-right:5px;}
+.book-info .buy-list li input + label {color:#505050;}
+
+.card-view-wrap img {float:left;width:164px;height:234px;margin-right:20px;}
+.card-view-wrap .tbl-style03.width70 {float:left;width:647px;}
+.card-view-wrap .buy-list input[type="checkbox"] {margin-right:5px;}
+.card-view-wrap .buy-list input[type="checkbox"] + label {margin-right:45px;}
+
+.tit-blue {display: inline-block;font-size: 16px;color: #184984;font-weight: bold;line-height: 40px;}
+.add-tr {display:none;}
+.preview-pay {display:inline-block;height:45px;padding:0 0px 0 40px;font-size:16px;color:#fff;background:#4265ad;line-height:45px;}
+.preview-pay span {float:right;display:inline-block;min-width:140px;height:45px;padding:0 30px;margin-left:40px;color:#4d4d4d;background:#e3e3e3;line-height:45px;text-align:center;}
+
+.top-bottom-line-box {padding:20px 11px;border-top:2px solid #6f7b89;border-bottom:1px solid #bebebe;}
+.top-bottom-line-box label {display:inline-block;padding:6px 0;padding-right:10px;font-size:14px;color:#696969;}
+.top-bottom-line-box input[type="radio"] {padding:3px 0;}
+.top-bottom-line-box .bullet-list li {float:left;width:245px;margin-bottom:0;}
+.top-bottom-line-box .bullet-list li:before {top:12px}
+
+.bbs-view-layout .item-box {margin-bottom:60px;}
+.bbs-view-layout .item-box * {font-family: 'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;font-size:14px !important;line-height:2 !important;}
+
+/* í¬í† ë‰´ìŠ¤ */
+.photo-news-thumbnail.col4 .list li {width:187px;margin-right:28px}
+.photo-news-thumbnail.col4 .list li:nth-child(4n) {margin-right:0}
+.photo-news-thumbnail.col4 img {width:100%;height:122px;margin-bottom:6px;}
+.photo-news-thumbnail .list li  {float:left;margin-bottom:40px;}
+.photo-news-thumbnail .tit {height:42px;margin-bottom:5px;padding-bottom:5px;border-bottom:1px solid #e6e6e6;font-size:14px;line-height:1.3;}
+.photo-news-thumbnail .global  {margin-bottom:5px;}
+.photo-news-thumbnail .bm1 {display:block;height:21px;padding-bottom:5px;border-bottom:1px solid #e6e6e6;font-size:13px;}
+
+
+/* ê´€ì„¸ìœ¨ì„œë¹„ìŠ¤ */
+.service-wrap {padding:25px 0 55px 0;border-top:2px solid #7a7a7a;}
+.service-wrap.bg-none {background:none;padding-bottom:15px;}
+.tab-purple li {float:left;width:152px;background:#e9e9e9;text-align:center;}
+.tab-purple li.on {background:#486F9E;}
+.tab-purple li a {display:block;height:40px;font-size:18px;line-height:40px;}
+.tab-purple li.on a {color:#fff;}
+
+.tab-purple.line li a {border:1px solid #DCDCDC}
+.tab-purple.line li.on a {border:1px solid #486F9E}
+
+.service-wrap .service-info {margin-top:15px;line-height:1.5;font-size:18px;}
+
+.tit-gray-line {margin-bottom:10px;padding-bottom:10px;border-bottom:2px solid #a9a9a9;font-size:18px;color:#515151;}
+.tit-gray-line.bullet {padding-left:18px;background:url(/site/kotranews/images/common/bullet-donut-wine.png) no-repeat 0 5px;background-size:14px;}
+.tit-gray-line.bullet-star {background:url(/site/kotranews/images/sub/bullet-library-star.png) no-repeat 0 6px;padding-left:14px;background-size:10px;}
+.tit-gray-line.bb0 {border-bottom:0;}
+.tit-gray-line.fs16 {font-size:16px;}
+.tit-gray-line.fs16.bullet-star {background-position:0 4px;}
+.tit-gray-line .quart {display:inline-block;width:50%;}
+.tit-gray-line .quart.bullet-star {background:url(/site/kotranews/images/sub/bullet-library-star.png) no-repeat 0 4px;padding-left:16px;background-size:13px;}
+.tit-gray-line .quart.bullet-star + .quart.bullet-star {padding-left:25px;background-position:8px 4px}
+
+.service-list-box {border:1px solid #e0e0e0;}
+.service-list-box.bg-book {background:url(/site/kotranews/images/sub/bg-book.png) 26px 30px no-repeat}
+.service-list-box.bg-tablet {background:url(/site/kotranews/images/sub/bg-tablet.png) 7px bottom no-repeat}
+.service-list-box.bg-notebook {background:url(/site/kotranews/images/sub/bg-notebook.png) 13px 26px no-repeat}
+.service-list-box.bg-fax {background:url(/site/kotranews/images/sub/bg-fax.png) 10px 22px no-repeat}
+.service-list-box.bg-people {background:url(/site/kotranews/images/sub/bg-people.png) 29px 10px no-repeat}
+
+.service-list-box ul {padding:20px 20px 20px 50px;margin-left:133px;background:#f7f7f7;}
+.service-list-box ul li {position:relative;margin-bottom:13px;line-height:20px;font-size:14px;}
+.service-list-box ul li:last-child {margin-bottom:0;}
+.service-list-box ul li:before {display:inline-block;position:absolute;left:-15px;top:7px;width:7px;height:4px;background:#939393;content:'';}
+.service-list-box.bg-book ul li,
+.service-list-box.bg-people ul li {font-size:15px;}
+.btn-service-area {position:relative;padding:15px 0 15px 0;text-align:center;}
+.btn-service-area:before {position:absolute;left:2px;top:2px;right:2px;bottom:2px;background:#f7f7f7;z-index:-1;content:'';}
+
+.btn-service-area a {width:150px;height: 35px;line-height: 35px;font-size:16px}
+
+/* ê´€ì„¸ìœ¨ì„œë¹„ìŠ¤ ë™ì˜ */
+.service-agree-wrap {padding:35px 0px 0 0px;border-top:2px solid #a9a9a9;}
+
+.service-agree-wrap h5 {margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid #d5d5d5;font-size:20px;color:#3575c3;}
+
+.service-agree-wrap .bullet-list {padding:3px 3px 3px 10px}
+.service-agree-wrap .bullet-list li{font-size:14px;margin-bottom:15px;}
+.service-agree-wrap .agree-txt {padding-top:10px;border-top:1px solid #d5d5d5;font-size:14px;color:#d47878;}
+.service-agree-wrap .agree-txt label {color:#373737}
+
+.service-agree-wrap.bg-none {background:none;padding:45px 0 0 0 ;}
+.service-agree-wrap.bg-none h5 {font-size:28px;font-weight:bold;padding-right:40px;}
+.service-agree-wrap.bg-none .bullet-list {padding-right:50px;}
+
+/* ë¬´ì—­ìžë£Œì‹¤ ì•ˆë‚´ */
+.library-wrap {padding:35px 330px 55px 10px;border-top:2px solid #7a7a7a;background:url(/site/kotranews/images/sub/bg-library2.png) no-repeat 90% 21px;}
+.library-wrap.bg-buy-wrap {padding:50px 333px 50px 10px;margin-bottom:0;background:url(/site/kotranews/images/sub/bg-library3.png) no-repeat 96% 100%}
+
+.library-wrap p {font-size:18px;line-height:1.7;}
+.library-wrap p .big-size-blue {display:inline-block;font-size:23px;color:#3575c3;font-weight:bold;line-height:35px;}
+.library-wrap p .big-size {display:inline-block;font-size:23px;color:#4b4b4b;font-weight:bold;line-height:35px;}
+
+.library-book-box {border:1px solid #e0e0e0;}
+.library-book-box ul {position:relative;padding:15px 15px 15px 35px;}
+.library-book-box ul:before {position:absolute;left:2px;top:2px;right:2px;bottom:2px;background:#f7f7f7;z-index:-1;content:'';}
+.library-book-box ul li {position:relative;margin-bottom:9px;line-height:20px;font-size:14px;word-break:keep-all;}
+.library-book-box ul.col2 li {float:left;width:45%;margin-bottom:15px;}
+.library-book-box ul.col2 li:nth-child(2n-1) {width:55%}
+.library-book-box ul.col2 li:nth-child(7),
+.library-book-box ul.col2 li:nth-child(8) {margin-bottom:0;}
+.library-book-box ul li.bullet-none:before {display:none}
+.library-book-box ul li:last-child {margin-bottom:0;}
+.library-book-box ul li:before {display:inline-block;position:absolute;left:-17px;top:5px;width:11px;height:11px;background:url(/site/kotranews/images/common/bullet-list-arrow.png) 0 0 no-repeat;content:'';}
+.library-book-box ul li span.orange {line-height:inherit;color:#ce4221;font-weight:bold;}
+.library-book-box ul li strong {line-height:inherit;color:#4f63b3;font-weight:bold;font-size:15px;}
+
+.library-book-box ul li p {/* position: relative; */line-height:1.3;margin-top:3px;}
+.library-book-box ul li p.bullet-dotted:before {content:'Â·';color:#cb3b9d;font-size:18px;margin-right: 3px;}
+
+.library-book-box.col2{position:relative;width:410px;float:left;margin-right:13px;}
+.library-book-box.col2 + .library-book-box.col2 {margin-right:0;}
+.library-book-box.col2:before {position:absolute;left:-1px;top:-2px;width:66px;height:67px;content:'1í˜¸';color:#fff;font-size:26px;text-align:center;background:url(/site/kotranews/images/common/bullet-library-book.png) 0 0 no-repeat;line-height:67px;}
+.library-book-box.col2 + .library-book-box.col2:before {content:'2í˜¸';line-height:67px;}
+
+.library-book-box.col2-2 {width:410px;float:left;margin-right:13px}
+.library-book-box.col2-2 + .library-book-box.col2-2 {margin-right:0;}
+.library-book-box.col2-2 ul {height:80px;}
+
+
+.library-book-box.col2 ul {padding:20px 40px 20px 108px;height:138px;}
+/* .library-book-box.col2 + .library-book-box.col2 ul {padding:30px 40px 30px 108px} */
+
+.library-book-line-box {float:left;width:410px;border:1px solid #e0e0e0;}
+.library-book-line-box.b0 {border:0;}
+.library-book-line-box.bg-watch {background:url(/site/kotranews/images/sub/bg-watch.png) 17px center no-repeat;height:171px}
+.library-book-line-box ul {padding:61px 15px 61px 30px;height:100%;margin-left:106px;}
+.library-book-line-box ul li {position:relative;margin-bottom:9px;line-height:20px;font-size:14px;}
+.library-book-line-box ul li:last-child {margin-bottom:0;}
+.library-book-line-box ul li:before {display:inline-block;position:absolute;left:-15px;top:7px;width:7px;height:4px;background:#939393;content:'';}
+
+/* ê³ ê°ì˜ì†Œë¦¬ */
+.customer-wrap {padding:35px 0 50px 0;border-top:2px solid #7a7a7a;border-bottom:2px solid #e3e3e3;background:url(/site/kotranews/images/sub/bg-customer.png) 97% 63% no-repeat}
+.customer-wrap .customer-info {font-size: 18px;line-height: 28px;}
+.customer-wrap .customer-info .red {color:#c84b4b;line-height:35px;}
+.customer-wrap .customer-info.fs16 {font-size:16px;}
+
+/* ì‹ ê°„ ë° ì¸ê¸°ë„ì„œ */
+.best-book-wrap {border-top:2px solid #a9a9a9;padding-top:35px;}
+.best-book-wrap h5 {font-size:18px;}
+.best-book-wrap h5 span {color:#d8691f}
+.best-book-wrap .list {margin-top:20px;margin-bottom:35px;}
+.best-book-wrap .list li {float:left;width:133px;margin-right:40px}
+.best-book-wrap .list li:last-child {margin-right:0px}
+.best-book-wrap .list li img {width:133px;height:173px;border:1px solid #e0e0e0;}
+.best-book-wrap .list li strong {display:block;margin-top:8px;text-align:center;line-height:1.3}
+
+/* gwë‰´ìŠ¤ë ˆí„° */
+.gw-letter-view {border:1px solid #e0e0e0;margin:0 auto;padding:25px 0;text-align:left;}
+.gw-letter-view img {max-width:100% !important}
+
+.news-letter-service{border-top:2px solid #a9a9a9;padding:28px 0;border-bottom:1px solid #e3e3e3;background:url(/site/kotranews/images/sub/bg_newsletter.png) no-repeat 100% 100%;}
+.news-letter-service p{font-size:18px;line-height:31px;margin-top:40px;}
+.news-letter-service p:first-child{margin-top:0;}
+.news-letter-service em {line-height:inherit}
+.news-letter-service .orange{color:#da7132;font-weight:bold;}
+.news-letter-service .blue{color:#6477b8;font-size:18px;line-height:inherit;font-weight:bold;}
+.news-letter-service + .btn-area a{font-weight:400;text-decoration:none;}
+
+/* ì»¤ë®¤ë‹ˆí‹° */
+.customer-community{border-top:2px solid #a9a9a9;}
+.customer-community > p{font-size:19px;color:#807f7f;padding-top:55px;height:259px;line-height:31px;background:url(/site/kotranews/images/sub/bg_community.png) no-repeat 505px 50%;}
+.customer-community em{line-height:inherit}
+.customer-community em.green{color:#5d8c1a;}
+.community-title{font-size:18px;color:#515151;font-weight:600;display:block;padding-bottom:21px;border-bottom:2px solid #a9a9a9}
+.community-list li{border:1px solid #e0e0e0;margin-top:20px;background:#f7f7f7;}
+.community-list li > span{position:relative;float:left;width:132px;height:100%;background:#fff;}
+.community-list li > span > img{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;max-width:100%;}
+.community-list li.last > span > img{margin-bottom:0}
+.community-view{float:left;padding:24px 0 24px 26px;}
+.community-view > em{font-size:21px;font-weight:600;color:#906ca3}
+.community-view > a.more{display:inline-block;padding:6px 9px;text-align:center;font-weight:600;color:#fff;line-height:1;background:#d35f2c;text-decoration:none;margin-left:11px;}
+.community-view > p{margin-top:14px;color:#6c6c6c;font-size:15px;}
+
+/* ê°œì¸ì •ë³´ìˆ˜ì • */
+.news-letter-app{width:607px;margin:0 auto;min-height:328px;border:1px solid #cdcdcd;background:url(/site/kotranews/images/sub/icon_news_letter_app.png) no-repeat 50% 37px #fafafa;}
+.news-letter-app p{font-size:20px;font-weight:600;color:#4b5a6e;text-align:center;padding-top:226px;line-height:30px;}
+.news-letter-app p em{line-height:inherit;color:#385396;}
+.news-letter-app + .btn-area{font-size:15px;font-weight:600;color:#4b5a6e;line-height:45px;}
+.news-letter-app + .btn-area a{text-decoration:none;font-weight:600;}
+
+/* êµ­ê°€ë³„ ì›¹íˆ° */
+/*
+.country-toon .sort-wrap{text-align:right;padding-bottom:10px;border-bottom:2px solid #c7c7c7;}
+.country-toon .sort-list{display:inline-block;}
+.country-toon .sort-list li{float:left;position:relative;width:94px;margin-left:5px;background:#f7f7f7;background:-webkit-linear-gradient(rgba(255,255,255,1),rgba(245,245,245,1));background:-moz-linear-gradient(rgba(255,255,255,1),rgba(245,245,245,1));background:linear-gradient(rgba(255,255,255,1),rgba(245,245,245,1));}
+.country-toon .sort-list li:after {position:absolute;left:31px;top:6px;display:block;width:1px;height:16px;background:#cfcfcf;content:'';}
+.country-toon .sort-list li:hover {background:-webkit-linear-gradient(rgba(245,245,245,1),rgba(255,255,255,1));background:-moz-linear-gradient(rgba(245,245,245,1),rgba(255,255,255,1));background:linear-gradient(rgba(245,245,245,1),rgba(255,255,255,1));}
+
+.country-toon .sort-list li a{display:block;padding:5px 0 5px 0;border:1px solid #cfcfcf;border-radius:5px;text-align:center;}
+.country-toon .sort-list li.active a {border:1px solid #ff7430;}
+.country-toon .sort-list li a.sort-date{padding-left:26px;background:url(/site/kotranews/images/sub/icon_sort_list01.png) no-repeat 9px center;}
+.country-toon .sort-list li a.sort-name{letter-spacing: -1px;padding-left:26px;background:url(/site/kotranews/images/sub/icon_sort_list02.png) no-repeat 8px center;}
+.country-toon .sort-list li a.like{padding-left:26px;background:url(/site/kotranews/images/sub/icon_like_blue.png) no-repeat 7px center;background-size:18px;}
+*/
+/* 2016-08-08ìˆ˜ì • */
+.country-toon .sort-wrap{text-align:right;padding-bottom:10px;border-bottom:2px solid #c7c7c7;}
+.country-toon .sort-list{display:inline-block;border:1px solid #6f7b89;border-radius:5px;}
+.country-toon .sort-list li{float:left;position:relative;width:30px;height:28px;}
+/* .country-toon .sort-list li:after {position:absolute;left:31px;top:6px;display:block;width:1px;height:16px;background:#cfcfcf;content:'';} */
+
+.country-toon .sort-list li a{display:block;height:100%;text-align:center;background:url(/site/kotranews/images/sub/icon-align-split.png) no-repeat;border-left:1px solid #6f7b89;text-indent:-9999em;}
+.country-toon .sort-list li.active a {background:url(/site/kotranews/images/sub/icon-align-split-on.png) no-repeat #6f7b89;}
+.country-toon .sort-list li a.sort-date{background-position:-71px center;border-left:0;}
+.country-toon .sort-list li a.sort-name{background-position:0px center;}
+.country-toon .sort-list li a.like{background-position:-29px center;}
+
+/* ì›¹íˆ°ê²Œì‹œíŒ */
+.toon_title{display:block;margin:24px 0 26px 0;color:#484848;font-size:18px;}
+.toon_title em{color:#c03c14;font-weight:600;}
+.toon-list{overflow:hidden;margin:-30px 0 0 -30px;}
+.toon-list li {position:relative;float:left;width:142px;height:146px;margin:30px 0 0 30px;border:1px solid #c8c8c8;}
+.toon-list li.new:after{content:'NEW';position:absolute;left:0;top:0;background:#cf2c2c;color:#fff;width:36px;height:19px;line-height:19px;text-align:center;font-size:11px;font-weight:600;}
+.toon-list li img{width:100%;min-height:106px;height:auto;}
+.toon-list li a {position:relative;display:block;width:140px;height:167px;text-decoration:none;}
+.toon-list li div{position:absolute;left:0;top:106px;width:100%;z-index:1;height:38px;padding-top:9px;background:#f8f8f8;border-top:1px solid #c8c8c8;text-align:center;}
+.toon-list li div > em{display:block;font-size:14px;font-weight:600;margin-bottom:5px;}
+.toon-list li div > .like{display:none;height:19px;line-height:19px;background:url(/site/kotranews/images/sub/icon_like_blue.png) no-repeat 0 0;color:#3f638f;font-weight:600;padding-left:26px;}
+
+/* êµ­ê°€ë³„ ë³´ê¸° */
+/* ì§€ë„ */
+.map-header{background:url(/site/kotranews/images/sub/country_location_patten.gif) repeat;height:52px;padding:12px 14px;font-size:17px;font-weight:700;color:#fff;overflow:hidden;}
+.map-header p {display:inline-block;line-height:28px;margin-left:8px;font-size:13px;}
+.map-header select{padding:0;min-width:210px;min-height:auto;height:28px;background:#fff !important}
+.map-header input[type="text"]{float:left;width:180px;height:28px;border:0;}
+.map-header button[type="button"],
+.map-header button[type="submit"]{float:left;width:29px;height:28px;text-indent:-999em;padding:0;background:url(/site/kotranews/images/sub/icon_map_search.png) no-repeat 50% 50% #474f5f;}
+.map{border:1px solid #cacaca;border-top:0;}
+.map2 {border:1px solid #cacaca;}
+
+.custom-overlay{position:absolute;top:0px;left:0px;width:311px;background:#fff;}
+/* .custom-overlay:before{content:'';display:block;width:27px;height:15px;position:absolute;top:-14px;left:50%;margin-left:-13.5px;background:url(/site/kotranews/images/sub/custom_overaly_arr.png) no-repeat 50% 0;} */
+.custom-overlay ul {float:none !important;padding:14px 7px 7px 176px;}
+.custom-overlay ul li {color:#000;margin-bottom:8px;text-indent:-35px;}
+.custom-overlay > button {position:absolute;right:8px;top:7px;width:17px;height:17px;border:0;background:url(/site/kotranews/images/common/btn-close-map-overlay.png) no-repeat;text-indent:-9999em;}
+.overlay-title{display:block;font-size:16px;padding:10px 0 7px 0;text-align:center;border-bottom:1px solid #cdcdcd;color:#000;}
+.overlay-body{text-align:center;padding:14px 20px 14px 13px;}
+.overlay-body img{width:108px;}
+.overlay-body a{display:block;height:27px;line-height:27px;font-size:14px;background:#0d6582;color:#fff;text-align:center;margin:9px auto 0;border-radius:5px;text-decoration:none;}
+
+/* êµ­ê°€ë¦¬ìŠ¤íŠ¸ */
+.continent-list-wrap {padding:25px 23px 15px 23px;border-left:1px solid #cacaca;border-right:1px solid #cacaca;border-bottom:1px solid #cacaca;}
+.continent-list-wrap .continent-box {display:table;width:100%;border:1px solid #d5d5d5;margin-bottom:10px;border-radius:7px;}
+.continent-list-wrap .continent-box strong {display:table-cell;width:127px;height:100%;background:url(/site/kotranews/images/common/pattern-square-blue.gif);text-align:center;font-size:16px;line-height:1.5;color:#3b3b3b;vertical-align:middle;border-top-left-radius:7px;border-bottom-left-radius:7px;}
+.continent-list-wrap .continent-box .national-list {padding:19px 20px 4px 20px}
+.continent-list-wrap .continent-box .national-list:after {content:'';clear:both;display:block;}
+.continent-list-wrap .continent-box .national-list li {position:relative;float:left;padding-left:2px;margin-bottom:15px;width:20%;}
+.continent-list-wrap .continent-box .national-list a {display:block;color:#3b3b3b;font-weight:bold;font-size:14px;}
+.continent-list-wrap .continent-box .national-list a span img {width:20px;height:14px;margin-top:2px;border:1px solid #C7C7C7;}
+.continent-list-wrap .continent-box:nth-child(5) .national-list li:nth-child(3) a {letter-spacing:-1.5px;}
+
+
+/* ìƒì„¸ */
+.country-view{border:1px solid #cacaca;}
+.country-location{background:url(/site/kotranews/images/sub/country_location_patten.gif) repeat;height:52px;padding:12px 14px 12px 24px;font-size:17px;font-weight:700;color:#fff;overflow:hidden;}
+.country-location > span{display:block;float:left;margin-top:6px;line-height:1;}
+.country-location > a{display:block;float:right;color:#fff;padding:6px 14px 6px 40px;text-decoration:none;background:url(/site/kotranews/images/sub/icon_map_view.png) no-repeat 10px 5px #314771;}
+.country-current-state{height:52px;padding:11px 17px 10px 30px;overflow:hidden;border-bottom:1px solid #cacaca}
+.country-current-state .fl,
+.country-current-state .fr{overflow:hidden;}
+.country-current-state em{float:left;font-size:20px;color:#606060;font-weight:600;line-height:32px;}
+.country-current-state .current-date{float:left;padding-left:32px;background:url(/site/kotranews/images/sub/icon_watch.png) no-repeat 0 50%;line-height:32px;}
+.country-current-state .current-time{float:left;}
+.country-current-state .current-time li{position:relative;float:left;padding:6px;background:#5671a4;color:#fff;font-weight:700;margin:0 9px;border-radius:3px;}
+.country-current-state .current-time li:after{content:':';position:absolute;right:-11px;top:50%;margin-top:-9px;color:#5a5a5a}
+.country-current-state .current-time li.last{margin-right:0;}
+.country-detail{position:relative;overflow:hidden;border-bottom:1px solid #cacaca;}
+.country-detail:after{content:'';position:absolute;top:0;left:434px;bottom:0;width:1px;background:#cacaca;}
+.country-detail .country-info{float:left;width:433px;padding:32px 10px 14px 10px;}
+.country-detail .country-info> .fl {width:180px;}
+.country-detail .country-info .country-flag {position:relative;padding:0 17px 22px 17px;}
+.country-detail .country-info dt{float:left;width:126px;border:1px solid #cacaca;padding:6px;background:#f7f7f7;margin-bottom:63px;}
+.country-detail .country-info dt img{max-width:100%;}
+.country-detail .country-info dd{float:left;width:212px;position:relative;color:#5d5d5d;line-height:1;margin-bottom:11px;padding-left:12px;margin-left:40px;line-height:1.4}
+.country-detail .country-info dd:before{content:'';position:absolute;left:1px;top:10px;width:4px;height:4px;margin-top:-2px;background:#9aa4b7}
+
+
+/* ìˆ˜ì •ì‚¬í•­2016-08-05 */
+.country-detail .listening{position:absolute;left:14px;top:114px;}
+.country-detail .listening > a{display:inline-block;width:126px;padding-left:46px;background:url(/site/kotranews/images/sub/icon_listening.png) no-repeat 15px center;background-size:36px;line-height:36px;text-align:center;font-weight:bold;}
+.country-detail .country-info .country-news {padding: 21px 17px 0 17px;margin:0 0 5px 0;border-top:1px solid #e0e0e0;}
+.country-detail .country-info .country-news .more {top:20px;}
+
+
+.country-detail .country-relevant{float:left;width:398px;padding:20px 25px 20px 25px;}
+.country-detail .country-news {position:relative;margin:25px 0 0 0;}
+.country-detail .country-news:first-child {margin-top:0;}
+.country-detail .country-news > em{display:block;font-size:17px;color:#595959;font-weight:700;margin-bottom:10px;}
+.country-detail .country-news > .bullet{}
+.country-detail .country-news > .bullet span{display:inline;color:#5671a4;}
+.country-detail .country-news > .bullet li{margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.country-detail .country-news > .bullet li:first-child {margin-top:0;}
+.country-detail .country-news > .bullet li a{position:relative;padding-left:15px;color:#5d5d5d;line-height:1.5}
+.country-detail .country-news > .bullet li a:after{content:'';position:absolute;top:50%;left:4px;width:4px;height:4px;background:#9aa4b7;margin-top:-2px}
+.country-detail .country-news > .bullet.video-bullet li {padding-left:4px;background:url(/site/kotranews/images/common/bullet-video.png) no-repeat left 1px;}
+.country-detail .country-news > .bullet.webtoon-bullet li {padding-left:3px;background:url(/site/kotranews/images/common/bullet-webtoon.png) no-repeat  0 2px;}
+.country-detail .country-news > .bullet.video-bullet li a:after,
+.country-detail .country-news > .bullet.webtoon-bullet li a:after{display:none;}
+.country-detail .country-news .more {display:block;width:18px;height:18px;position:absolute;right:0;top:0px}
+.country-news .btn-diplomacy {display:inline-block;padding:7px 31px;margin:15px 0 0 0;border-radius:4px;background:url(/site/kotranews/images/common/icon-computer-small.png) no-repeat 0 center;font-weight:bold;font-size:16px;}
+.country-news .btn-diplomacy:hover {text-decoration:underline;}
+
+.country-view .telegram{padding:10px 0 20px 0;}
+.country-view .telegram > a{display:block;padding-left:108px;background:url(/site/kotranews/images/sub/icon_telegram.png) no-repeat 337px 0;background-size:44px;line-height:44px;text-align:center;font-size:20px;font-weight:bold;}
+
+
+.country-view .telegram2{padding:10px 0 20px 0;}
+.country-view .telegram2 > a{display:block;padding-left:108px;background:url(/site/kotranews/images/sub/bt_pdf.png) no-repeat 337px 0;background-size:44px;line-height:44px;text-align:center;font-size:20px;font-weight:bold;}
+
+.country-view .telegram3{padding:10px 0 20px 0;}
+.country-view .telegram3 > a{display:block;padding-left:108px;background:url(/site/kotranews/images/sub/bt_html.png) no-repeat 337px 0;background-size:44px;line-height:44px;text-align:center;font-size:20px;font-weight:bold;}
+
+
+
+.country-business-wrap {padding:23px 14px 0 14px;}
+.country-business-wrap .country-business {display:table;border:1px solid #c7cedc;margin-bottom:13px;background:url(/site/kotranews/images/common/pattern-square-blue.gif)}
+
+.country-business-wrap .country-business strong {display:table-cell;width:170px;height:105px;color:#2d2d2d;font-size:19px;text-align: center;vertical-align:middle;}
+
+.country-business-wrap .country-business .business-list {display:table-cell;width:631px;min-height:110px;padding:20px 0 10px 0;border-left:1px solid #c7cedc;background:#fff;vertical-align: middle;}
+.country-business-wrap .country-business .business-list li {float:left;width:29.33%;margin-left:4%;margin-bottom:10px;}
+.country-business-wrap .country-business .business-list li a {position:relative;display:block;padding-left:8px;font-weight:bold;font-size:14px;}
+.country-business-wrap .country-business .business-list li a:before {display:inline-block;position:absolute;left:0;top:7px;width:3px;height:3px;content:'';background:#db7a3a;color:#fff;text-align:center;line-height:16px;font-size:11px;}
+
+
+/* ëª¨ë‹¬ */
+.country-modal-wrap{display:none;position:relative;width:100%;height:100%;background:#fff;}
+.country-modal-wrap.on {display:block;z-index:9999999;}
+.country-modal-wrap.side-menu-close .country-content{right:0;}
+.country-modal-wrap.side-menu-close .country-side-menu-wrap{display:none;}
+.country-modal-wrap.side-menu-close .side-toggle-btn{right:8px;}
+/* ****************************************************** *
+	country-main-menu
+* ****************************************************** */
+.country-main-menu {position: fixed;left: 0;top: 0;width: 275px;height: 100%;background: #2d476d;}
+.country-main-menu h2{font-size: 24px;font-weight: 400;text-align: center;padding: 27px 0 15px 0;}
+.country-main-menu h2 img {width:120px;height:auto;}
+.country-main-menu h3 {color: #bbf5ff;font-size: 25px;padding:0px 0px 25px 0px;text-align:center;border-bottom:1px solid #456CA5;}
+.country-main-menu a{display: block;text-decoration: none;line-height: 1;}
+	/* 1depth */
+.country-main-menu .country-main-list-wrap {height:900px;}
+.country-main-menu .country-main-list-wrap ul.country-main-list {border-bottom:1px solid #456CA5;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li {position:relative;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li:after {display:block;width:20px;height:20px;position:absolute;right:15px;top:12px;z-index:1;content:'';background:url(/site/mkotranews/images/common/bullet-plus.png) no-repeat center center;background-size: 20px;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li.current-tab:after {background:url(/site/mkotranews/images/common/bullet-minus.png) no-repeat center center;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > a{padding: 13px 0 14px 29px;font-size: 16px;color: #defcff;background-color: #214d8f;border-top:1px solid #456CA5;background-image:url(/site/kotranews/images/common/pattern-triangle-overlay.png);background-position:right 0;background-repeat:no-repeat}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > a:hover {color:#C5FAFF;bakcground-color:#214d8}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li:first-child > a {border-top:0;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li.current-tab > a {border-top: 1px solid #7e8dff;}
+
+
+.country-main-menu .country-main-list-wrap ul.country-main-list > li.current-tab > a {background-color: #27277b;border-color: #7e8dff;border-bottom:1px solid #7e8dff;color:#64fffd;}
+/* .country-main-menu .country-main-list-wrap ul.country-main-list > li:hover > a{background-color: #27277b;border-color: #7e8dff;color:#64fffd;} */
+	/* 2depth */
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul{display:none;padding: 14px 0 24px 0;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li.current-tab > ul{display:block;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li{position: relative;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li > a.link{position: relative;padding:10px 8px 10px 41px;font-size: 14px;color: #afc3e2}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li > a.link:before{content:'';position: absolute;left: 29px;top: 50%;width: 3px;height: 3px;margin-top:-1.5px;background: #8591bb;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li > a.link:hover {color:#BDCBE0}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li.active > a.link {color: #fcffa7}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li.active > a.link:before {background: #fcffa7}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li > a.pdf{position: absolute;right: 8px;top: 50%;z-index:2;width: 30px;padding: 2px 0;margin-top: -7px;border-radius: 3px;background: #ee0000;font-size: 11px;font-weight: 700;color: #fff;text-align: center;}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li > span.red {display:block;position: relative;padding:10px 8px 10px 41px;font-size: 14px;color: #FF1515;cursor:default}
+.country-main-menu .country-main-list-wrap ul.country-main-list > li > ul > li > span.red:before {content:'';position: absolute;left: 29px;top: 50%;width: 3px;height: 3px;margin-top:-1.5px;background: #FF1515;}
+/* ****************************************************** *
+	country-content
+* ****************************************************** */
+.country-content{overflow:hidden;position:fixed;left:275px;right:337px;top:0;height:100%;background:#fff;}
+.country-content-area {width:100%;max-width:763px;margin:0 auto;height:100%;}
+
+.country-content img{float:left;}
+/* ****************************************************** *
+	country-side-menu
+* ****************************************************** */
+.country-side-menu-wrap {position: fixed;right: 0;top: 0;width: 337px;height: 100%;border-left:1px solid #e8e8e8;padding-left:45px;background:#fff;}
+.country-side-menu{position:relative;width: 292px;height: 100%;border-left:1px solid #e8e8e8;}
+.country-side-menu h2{font-size: 22px;font-weight: 600;letter-spacing:-1px;text-align: center;padding: 28px 0 20px 0;color: #424242;border-bottom: 1px solid #e8e8e8;line-height:1;}
+.country-side-menu .country-group-select {margin: 10px 11px 0 11px;line-height:28px;color:#2A384C;font-weight:bold;}
+.country-side-menu .country-group-select select {float:right;border:1px solid #D4D4D4;width:160px;}
+.country-side-menu .country-side-menu-list {position:absolute;top:119px;left:11px;right:11px;bottom:45px;width:269px;padding:5px 6px 5px 12px;border:1px solid #d8d8d8;background:#f9f9f9;}
+.country-side-menu .country-side-menu-list ul{}
+.country-side-menu .country-side-menu-list ul > li{float:left;width:50%;margin:5px 0;}
+.country-side-menu .country-side-menu-list ul > li > a{display:block;font-weight:700;padding:5px 7px;white-space:nowrap;text-decoration: none;line-height:1;}
+.country-side-menu .country-side-menu-list ul > li:hover > a,
+.country-side-menu .country-side-menu-list ul > li.active > a{background:#363f5c;color:#fffeb1}
+
+.country-modal-close{position:fixed;top:0px;right:354px;font-size:50px;line-height:50px;outline:none;}
+/* ëª¨ë‹¬ ìŠ¤í¬ë¡¤íƒ‘ */
+.country-modal-print{
+    width: 45px;
+    height: 45px;
+    position:fixed;
+    bottom: 75px;
+    right:354px;
+    outline:none;
+    font-size:0;
+    background:url(/site/kotranews/images/common/modal-print.png) no-repeat;
+}
+.country-modal-top {width: 45px;height: 45px;position:fixed;bottom:22px;right:354px;background:#fff;border: 1px solid #C1C1C1;border-radius:50%;font-size:13px;color:#5A5A5A;outline:none;}
+.country-modal-top span {line-height:}
+.side-toggle-btn{width:34px;height:85px;position:fixed;top:50%;right:303px;margin-top:-42px;background:url(/site/kotranews/images/common/btn-side-toggle.png) no-repeat;text-indent:-999em;outline:none;}
+.country-modal-wrap.side-menu-close .side-toggle-btn {right:4px;transform: rotateY(180deg);}
+.country-modal-wrap.side-menu-close .country-modal-close,
+.country-modal-wrap.side-menu-close .country-modal-print,
+.country-modal-wrap.side-menu-close .country-modal-top {right:20px;}
+
+/* ìŠ¤í¬ë¡¤ë°” */
+.country-side-menu .country-side-menu-list .mCustomScrollBox {position:absolute;left:0;top:0;bottom:0;right:0;}
+.country-main-menu .mCSB_inside>.mCSB_container,
+.country-side-menu-list .mCSB_inside>.mCSB_container {margin-right:0;}
+.country-main-menu .mCSB_scrollTools .mCSB_draggerContainer,
+.country-side-menu-list .mCSB_scrollTools .mCSB_draggerContainer {left:7px;}
+
+.country-side-menu-list .mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical {margin:4px 0;}
+.country-side-menu-list .mCSB_container {overflow:visible;}
+.country-side-menu-list .mCustomScrollBox{max-height:887px !important;}
+
+
+/* ë°ì´í„° ì—†ì„ë•Œ */
+.no-data-wrap {padding:30px 0;margin-top:20px;border-top:2px solid #8f97a3;border-bottom:1px solid #e0e0e0;font-size:14px;text-align:center;}
+
+/* êµ­ê°€ì •ë³´ */
+.country-info-buy:before {position:absolute;left:0;top:-20px;content:'';display:block;width:100%;height:2px;background:#7a7a7a;}
+.country-info-buy{position:relative;top:20px;border:1px solid #cdcdcd;height:293px;margin-bottom:30px;}
+.country-info-buy .buy-figure{position:relative;float:left;width:320px;height:100%;border-right:1px solid #cdcdcd;}
+.country-info-buy .buy-figure img{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;max-width:100%;}
+.country-info-buy .buy-guid{float:left;width:511px;height:100%;padding:21px 24px;background:url(/site/kotranews/images/sub/buy_patten.gif) repeat;}
+.country-info-buy .buy-guid p{margin:14px 0 5px 0;padding-left:10px;font-weight:600;line-height:1.4;}
+.country-info-buy .buy-guid p span {display:inline-block;width:17px;height:17px;margin-right:5px;line-height:inherit;color:#fff;background:#D05649;font-size:13px;text-align:center;border-radius:3px;}
+.country-info-buy .buy-guid p em{color:#d56363;font-size:15px;line-height:inherit;}
+.country-info-buy .buy-guid p a, .country-info-buy .buy-guid p i {line-height:1.5;}
+.country-info-buy .buy-guid p.bullet-dotted:before {display:inline-block;width:3px;height:3px;content:'';background:#d85a16;margin:0 6px 4px 0;}
+.country-info-buy .buy-guid hr{border:0;display:block;height:1px;background:#cdcdcd;}
+.country-info-buy .buy-guid hr ~ p{font-size:17px;}
+.buy-btn-area{padding-top:13px;}
+.buy-btn-area a{display:inline-block;width:133px;height:32px;line-height:32px;color:#fff;font-size:15px;font-weight:600;text-decoration:none;text-align:center;}
+.buy-btn-area a.cart{background:/*url(/site/kotranews/images/sub/icon_buy_cart.png) no-repeat 13px 50% */#486F9E;margin-right:7px;width:100px;}
+.buy-btn-area a.buy{background:/*url(/site/kotranews/images/sub/icon_buy_check.png) no-repeat15px 50% */#D85A16;width:140px;line-height:35px;height:35px;}
+.buy-btn-area a.buy.orange {background-color:#e9e9e9;width:100px;line-height:32px;height:32px;color:#373737;}
+
+
+/* ê°œì¸ì •ë³´ ì²˜ë¦¬ë°©ì¹¨ */
+.person-law-info {padding:45px 20px 45px 260px;border-top:2px solid #a9a9a9;border-bottom:1px solid #c3c3c3;background:url(/site/kotranews/images/sub/bg-person-law.png) no-repeat 35px center;}
+.person-law-info p {font-size:16px;line-height:1.7;}
+.person-law-wrap {padding-top:45px;}
+.person-law-wrap h5 {padding-left:28px;padding-bottom:7px;margin-bottom:10px;border-bottom:2px solid #6c86ab;background:url(/site/kotranews/images/common/icon-list.png) no-repeat 3px 0px;font-size:18px;color:#2d5387;}
+.person-law-wrap p {font-size:14px;line-height:1.5;}
+.person-law-wrap .new-link  {margin-top:20px;}
+.person-law-wrap .new-link li {display:inline-block;width:230px;}
+.person-law-wrap .new-link li:nth-child(2n-1) {margin-right:20px;}
+.person-law-wrap .new-link li:nth-child(2n) {margin-right:200px;}
+.person-law-wrap .new-link li a {display:inline-block;font-size:14px;text-decoration:underline;font-weight:bold;color:#ac1b1b;line-height:1.5}
+.bullet-num > li,
+.person-law-wrap .num > li {position:relative;padding-left:22px;font-size:14px;line-height:1.5;margin-bottom:16px;}
+.bullet-num > li:before,
+.person-law-wrap .num > li:before {display:inline-block;position:absolute;left:0;top:2px;width:16px;height:16px;margin-right:3px;content:'1';border-radius:3px;color:#fff;background:#606060;text-align:center;line-height:16px;font-size:13px;vertical-align:middle;}
+.bullet-num > li:nth-child(2):before,
+.person-law-wrap .num > li:nth-child(2):before {content:'2'}
+.bullet-num > li:nth-child(3):before,
+.person-law-wrap .num > li:nth-child(3):before {content:'3'}
+.bullet-num > li:nth-child(4):before,
+.person-law-wrap .num > li:nth-child(4):before {content:'4'}
+.bullet-num > li:nth-child(5):before,
+.person-law-wrap .num > li:nth-child(5):before {content:'5'}
+.bullet-num > li:nth-child(6):before,
+.person-law-wrap .num > li:nth-child(6):before {content:'6'}
+.bullet-num > li:nth-child(7):before,
+.person-law-wrap .num > li:nth-child(7):before {content:'7'}
+.bullet-num > li:nth-child(8):before,
+.person-law-wrap .num > li:nth-child(8):before {content:'8'}
+
+.person-law-wrap .law-bullet {margin:8px 0 13px 0;}
+.person-law-wrap .law-bullet li {position:relative;padding-left:12px;margin-bottom:6px;line-height:1.5;}
+.person-law-wrap .law-bullet li:before {display:inline-block;position:absolute;left:0;top:8px;width:4px;height:4px;margin-right:6px;content:'';background:#2d5387;}
+.person-law-wrap .law-bullet > li > ul {padding:10px 0 2px 15px;}
+.person-law-wrap .law-bullet > li > ul > li {text-indent:-22px;}
+.person-law-wrap .law-bullet > li > ul li:before {display:none;}
+.person-law-wrap .law-bullet > li > ul > li > ul {padding-top:10px;}
+.person-law-wrap .law-bullet > li > ul > li > ul > li{}
+.person-law-wrap .law-bullet.blue-txt li{color:#225594;}
+.person-law-wrap .tbl-style05 th {padding: 10px 5px;}
+.person-law-wrap .tbl-style05 td {padding: 13px 10px;}
+.person-law-wrap .tbl-style05 td .email {display:inline-block;}
+.person-law-wrap a {line-height: inherit;font-size:14px;}
+
+/* ì €ìž‘ê¶Œì •ì±… */
+.copyright-law-wrap {padding-top:20px;border-top:2px solid #a9a9a9;}
+.bullet-triangle li {position:relative;padding-left:12px;margin-bottom:20px;font-size:14px;line-height:1.5;}
+.bullet-triangle li:before {position:absolute;left:0;top:2px;content:'â–¶';color:#2d5387;font-size:10px;}
+.copyright-law-wrap .gray-tit-box {margin-bottom:23px;}
+.copyright-law-wrap .gray-tit-box p {background:#676767;}
+.copyright-law-wrap .gray-tit-box p em {font-size:15px;display:block;color:#fff;text-align:center;line-height:40px;}
+.copyright-law-wrap .gray-tit-box p + p {padding:25px 20px 10px 20px;border:1px solid #9f9f9f;border-top:0;background:#fff;}
+.copyright-law-wrap .gray-tit-box p + p strong {display:block;font-size:15px;margin-bottom:12px;}
+.copyright-law-wrap .gray-tit-box p + p span {display:block;font-size:14px;margin-bottom:8px}
+.copyright-law-wrap .gray-tit-box p + p span.bullet-square {padding-left:10px;position:relative;}
+.copyright-law-wrap .gray-tit-box p + p span.bullet-square:before {position:absolute;left:0;top:6px;content:'';width:4px;height:4px;display:block;background:#2d5387;}
+.copyright-law-wrap table {margin-bottom:23px;}
+.copyright-law-wrap table th {background:#676767;font-size:15px;color:#fff;border:1px solid #9f9f9f;text-align:center;line-height:40px;}
+.copyright-law-wrap table td {padding:25px 20px 10px 20px;border:1px solid #9f9f9f;border-top:0;background:#fff;text-align:center;vertical-align:top}
+.copyright-law-wrap table td:first-child{border-right:0;}
+.copyright-law-wrap table td p {text-align:left;line-height:1.6;margin-bottom:15px;}
+.copyright-law-wrap table td p strong {display:block;padding-top:8px;}
+.copyright-law-wrap table td p strong.mint {color:#35c1a9}
+.copyright-law-wrap table td a {line-height:inherit;}
+
+
+.copyright-wrap > h5 {font-size:15px;margin-bottom:10px}
+.copyright-wrap > p {font-size:14px;margin-bottom:8px;line-height:1.4}
+.copyright-wrap > p.red {color:#a81c1c;font-weight:bold;}
+.copyright-wrap > p.red a {color:#a81c1c;line-height:inherit}
+.copyright-wrap h6 {padding-left:10px;position:relative;color:#2c68b1;font-size:14px;margin-bottom:8px}
+.copyright-wrap h6:before {position:absolute;left:0;top:6px;content:'';width:4px;height:4px;display:block;background:#2c68b1;}
+.copyright-wrap .bullet-num {margin-bottom:20px}
+.copyright-wrap .bullet-num li {font-size:14px;margin-bottom:7px;}
+
+/* ì¹´íŠ¸ë³´ê¸° */
+.last-cart-area p {display:inline-block;margin-right:5px;line-height:28px;font-weight:bold;font-size:14px;}
+.last-cart-area p input {margin-right:3px;}
+
+/* ì‹¬ì¸µë³´ê³ ì„œ */
+.page-top-search-area {padding:20px 0;border-top:2px solid #7a7a7a;}
+.page-top-search-area p {color:#000;line-height:28px;}
+.page-top-search-area p .orange {color:#ec3d00;line-height:inherit;}
+.page-top-search-area .top-search input[type="submit"] {width: 28px;height: 28px;padding-left: 15px;border:0;background: url(/site/kotranews/images/common/icon-search-white.png) center center no-repeat #2c3c55;color: #fff;line-height: 28px;cursor:pointer;text-indent:-999em;}
+
+
+/* ë¦¬ìŠ¤íŠ¸ */
+.report-thumbnail li {float:left;margin-bottom:30px;border:1px solid #d3d3d3;}
+.report-thumbnail.col3 li{width:200px;margin-left:10px;}
+.report-thumbnail.col3 li:nth-child(4n-3) {margin-left:0;}
+.report-thumbnail .report-box {overflow:hidden;height:167px;text-align:center;}
+.report-thumbnail .report-box img {margin-top:20px;width:155px;height:220px;border:1px solid #C3C3C3}
+.report-thumbnail .temp {padding:14px 20px;border-top:1px solid #d3d3d3;background:#f5f6f7;height:78px;font-size:16px;color:#000;font-weight:bold;line-height:1.5;}
+/*
+.report-thumbnail .temp strong {display:block;height:50px;font-size:16px;color:#000;font-weight:bold;line-height:1.5;font-family: 'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;word-break:keep-all;}
+.report-thumbnail .temp strong * {font-family: 'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;font-size:14px !important;color:##373737 !important;font-weight:normal !important}
+*/
+/* ë·°íŽ˜ì´ì§€ */
+.report-view-wrap {margin-bottom:30px;padding-top:45px;border-top:2px solid #7a7a7a;}
+.report-img-area {float:left;margin-right:40px;}
+.report-img-area .report-img {text-align:left;}
+.report-img-area .report-img img {width:224px;height:317px;border:1px solid #D4D4D4;}
+
+.btn-report-area {display:block;margin-top: 44px;}
+.btn-report-area ul {display:inline-block;}
+.btn-report-area li {float:left;}
+.btn-report-area li + li{margin-right:0px;}
+.btn-report-area .btn-simple {width:145px;}
+.btn-report-area li a {display:inline-block;height:33px;line-height:33px;margin-right:10px;}
+.btn-report-area li p {display:none;font-size:15px;color:#292929;line-height:33px;}
+.btn-report-area li p .orange {color:#d71414;line-height:inherit;}
+
+.report-infomation-area {float:left;width:569px;color:#000;}
+.report-infomation-area h5 {border-bottom:2px solid #b9b9b9;padding:3px 0 15px 0;margin-bottom:25px;font-size:20px;word-break:keep-all;}
+.report-infomation-area .report-info-list {margin-bottom:14px;}
+.report-infomation-area .report-info-list li {float:left;width:50%;position:relative;padding-left:8px;margin-bottom:11px;font-size:15px;}
+.report-infomation-area .report-info-list li.width100 {width:100%;}
+.report-infomation-area .report-info-list li:before {display:block;position:absolute;left:0;top:7px;width:3px;height:3px;background:#de2626;content:'';}
+.report-infomation-area .report-info-list li:nth-child(2n) {width:284px;}
+.report-infomation-area h6 {padding-bottom:10px;font-size:19px;color:#000;}
+/*
+.top-line-scroll-box {overflow-y:scroll;max-height:180px;padding:20px 25px;border-top:2px solid #b9b9b9;border-left:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5;border-right:1px solid #d5d5d5;}
+.top-line-scroll-box p {line-height:2;}
+.top-line-scroll-box p * {font-family: 'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;color:##373737 !important;font-weight:normal !important}
+*/
+/*
+.report-rela-box {border-top:2px solid #b9b9b9;border-left:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5;border-right:1px solid #d5d5d5;margin-bottom:20px;}
+.report-rela-box strong {display:block;padding:11px 0 11px 20px;background:url(/site/kotranews/images/common/pattern-report.gif);font-size:19px;color:#000;font-weight:bold;}
+.report-rela-box p {padding:15px 20px 15px 20px; line-height:2;font-size:17px;}
+.report-rela-box.custom-line {border-top:1px solid #d5d5d5;}
+.report-rela-box.custom-line p {padding:25px 30px;}
+.report-rela-box.custom-line p * {font-family: 'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;color:##373737 !important;font-weight:normal !important}
+*/
+.report-more-wrap {position:relative;margin-bottom:30px;}
+.report-more-wrap h6 {font-size:20px;padding-left:7px;padding-bottom:10px;}
+.report-more-box {overflow:hidden;padding:17px 22px;height:185px;border-top:2px solid #b9b9b9;border-left:1px solid #d5d5d5;border-right:1px solid #d5d5d5;border-bottom:1px solid #d5d5d5; line-height:1.8;}
+.report-more-box.on {height:100%;}
+.report-more-wrap .more {padding-right:20px;position:absolute;right:7px;top:5px;background:url(/site/kotranews/images/sub/btn-report-more.gif) no-repeat right center;}
+.report-more-box.on +.more {background:url(/site/kotranews/images/sub/btn-report-more-on.gif) no-repeat right center;}
+.report-more-box * {font-family: 'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;color:#373737 !important;font-size:14px !important;line-height:2 !important;}
+
+/* ì´ì „ê¸€ ë‹¤ìŒê¸€ */
+.next-post-wrap {border-top:1px solid #d5d5d5;background:#f6f6f6;font-size:14px;}
+.next-post-wrap li {padding:13px 25px;border-bottom:1px solid #d5d5d5;color:#000;}
+.next-post-wrap li span {float:left;display:inline-block;padding-right:24px;}
+.next-post-wrap li p {float:left;display:block;width:680px;margin-left:30px;}
+.next-post-wrap li p a {display:block;font-size:14px;color:#000;}
+.next-post-wrap .prev-post span {background:url(/site/kotranews/images/common/arrow-post-prev.png) right center no-repeat}
+.next-post-wrap .next-post span {background:url(/site/kotranews/images/common/arrow-post-next.png) right center no-repeat}
+.big-tit {font-size:20px;color:#000;margin-bottom:10px;}
+
+/* í†µí•©ê²€ìƒ‰ */
+/* ë©”ë‰´ */
+.search-snb-wrap ul li {border-bottom:1px solid #d7d7d7;}
+.search-snb-wrap ul li a {display:block;position:relative;padding:11px 0 11px 27px;color:#595959;}
+.search-snb-wrap ul li.on a,
+.search-snb-wrap ul li a:hover {font-weight:bold;}
+.search-snb-wrap ul li a:before {display:inline-block;position:absolute;left:17px;top:17px;width:3px;height:3px;background:#3471c1;content:'';}
+
+
+.search-result-wrap {float:left;width:833px;}
+.search-result-wrap .search-info-txt {margin-top:20px;font-size:15px;color:#595959;font-weight:bold;}
+
+.search-result-wrap .search-info-txt .orange {color:#e8641b}
+.search-result-wrap .tit-gray-line {margin-bottom:0;padding-top:20px;}
+.search-result-list {padding-bottom:10px;}
+.search-result-list .list {padding-bottom:25px;border-bottom:1px solid #ebebeb;}
+.search-result-list li {position:relative;padding-top:25px;margin-top:25px;border-top:1px solid #ebebeb;}
+.search-result-list li:first-child {margin-top:0;border-top:0;}
+.search-result-list li a img {float:left;width:105px;height:107px;margin-right:17px;}
+.search-result-list li .tit {margin-bottom:10px;padding-right:115px;font-size:18px;font-weight:bold;color:#212121;}
+.search-result-list li .con {line-height:1.5;height:auto;max-height:40px;}
+.search-result-list li .date {position:absolute;right:0;top:28px;font-size:13px;color:#666;}
+.search-result-list li .etc-info {margin-top:21px;color:#8e8e8e;font-size:13px;}
+.search-result-list li .etc-info span + span {margin-left:13px}
+
+
+.search-nation-wrap {margin-top:10px;position:relative;padding:13px 24px;border:1px solid #e2e2e2;}
+.search-nation-wrap dt{float:left;border:1px solid #cacaca;padding:6px;background:#f7f7f7;}
+.search-nation-wrap dt img{width:129px;height:86px;}
+.search-nation-wrap dd{float:left;width:186px;position:relative;color:#5d5d5d;line-height:1;margin:5px 6px;padding-left:12px;margin-left:40px;line-height:1.4}
+.search-nation-wrap dd:nth-child(2),
+.search-nation-wrap dd:nth-child(3) {margin-top:12px;}
+.search-nation-wrap dd:nth-child(2n-1) {margin-left:0;}
+.search-nation-wrap dd:before{content:'';position:absolute;left:1px;top:10px;width:4px;height:4px;margin-top:-2px;background:#9aa4b7}
+.search-nation-wrap > a.more {position: absolute;right:24px;bottom:13px;background:#00A08B;color:#fff;font-weight:bold;padding:8px 20px;}
+.search-nation-wrap > a.more:hover {}
+
+
+/* í†µí•©ê²€ìƒ‰ ë‚´ ìƒì„¸ê²€ìƒ‰ */
+.search-detail-wrap {margin-top:15px;padding:12px 12px;border:1px solid #e7e7e7;background:#f4f4f4;}
+.search-detail-wrap .search-sort,
+.search-detail-wrap .search-sort-area,
+.search-detail-wrap .search-date {float:left;margin-right:13px;}
+.search-detail-wrap .search-date {width:241px;}
+.search-detail-wrap .search-sort-industy {float:left;}
+.search-detail-wrap p {float:left;font-weight:bold;line-height:26px;margin-right:5px;}
+.search-detail-wrap .align-list {float:left;}
+.search-detail-wrap .align-list li {float:left;}
+.search-detail-wrap .align-list.col2 li {width:85px;}
+.search-detail-wrap .align-list.col3 li {width:64px;}
+.search-detail-wrap .align-list li a {display:block;height:26px;border:1px solid #d3d3d3;background:#fff;color:#000;font-size:13px;line-height:24px;text-align:center;}
+.search-detail-wrap .align-list li + li a{border-left:0;}
+.search-detail-wrap .align-list li.on a {background:#282828;border:1px solid #282828;color:#fff;}
+.search-detail-wrap .align-list li.on + li a {border-left:0;}
+
+.search-detail-wrap .search-date .date > input {width:96px;min-height:26px;border:1px solid #d3d3d3;line-height:22px;font-size:13px;padding:0 6px;text-align: center;}
+
+.search-detail-wrap .search-sort-industy .in-col3 {width:530px;}
+.search-detail-wrap .search-sort-industy select {width:140px;border:1px solid #D3D3D3;font-size:13px;min-height:26px;}
+.search-detail-wrap .search-sort-industy button {background:#4676be;    margin-top: 1px;color:#fff;padding:0 15px;margin-left: 7px;height:24px;line-height:24px;border:0;vertical-align: middle;text-align:center;font-size:13px;}
+
+/* ê²€ìƒ‰ì–´ */
+.best-search-wrap {padding:30px 7px 15px 7px;min-height:600px;margin-top:30px;border:1px solid #d3d3d3;background:#f4f4f4;}
+.best-search-wrap h6 {margin-left:4px;margin-bottom:4px;font-size:16px;color:#000;}
+.best-search-wrap .best-search-box {padding:14px 10px;border:1px solid #d1d1d1;margin-bottom:35px;background:#fff;}
+.best-search-wrap .best-search-box li {position:relative;}
+.best-search-wrap .best-search-box.best-word li {padding-left:23px;margin-bottom:12px;}
+.best-search-wrap .best-search-box.best-word li a {float:left;display:block;width:106px;line-height:14px;font-size:14px;}
+.best-search-wrap .best-search-box.best-word li span {float:right;display:inline-block;padding-left:10px;font-size:13px;}
+.best-search-wrap .best-search-box.best-word li:last-child {margin-bottom:0;}
+.best-search-wrap .best-search-box.best-word li:before {position:absolute;left:0;top:0;display:block;width:18px;height:15px;line-height:15px;color:#fff;background:#3e5bed;content:'1';text-align:center;font-size:12px;}
+.best-search-wrap .best-search-box.best-word li:nth-child(2):before {content:'2';}
+.best-search-wrap .best-search-box.best-word li:nth-child(3):before {content:'3';}
+.best-search-wrap .best-search-box.best-word li:nth-child(4):before {content:'4';background:#454545;}
+.best-search-wrap .best-search-box.best-word li:nth-child(5):before {content:'5';background:#454545;}
+.best-search-wrap .best-search-box.best-word li:nth-child(6):before {content:'6';background:#454545;}
+.best-search-wrap .best-search-box.best-word li:nth-child(7):before {content:'7';background:#454545;}
+.best-search-wrap .best-search-box.best-word li:nth-child(8):before {content:'8';background:#454545;}
+.best-search-wrap .best-search-box.best-word li:nth-child(9):before {content:'9';background:#454545;}
+.best-search-wrap .best-search-box.best-word li:nth-child(10):before {content:'10';background:#454545;text-align:left;}
+.best-search-wrap .best-search-box.best-word li span.keep {background:url(/site/kotranews/images/sub/icon-best-keep.png) 0 center no-repeat;}
+.best-search-wrap .best-search-box.best-word li span.down {background:url(/site/kotranews/images/sub/icon-best-down.png) 0 center no-repeat;}
+.best-search-wrap .best-search-box.best-word li span.up {background:url(/site/kotranews/images/sub/icon-best-up.png) 0 center no-repeat;}
+.best-search-wrap .best-search-box.best-word li span.new {width:14px;height:14px;margin-right:3px;background:url(/site/kotranews/images/common/icon-best-new.png) no-repeat center center}
+
+.best-search-wrap .best-search-box.searching-word li {padding-left:8px;margin-bottom:10px;}
+.best-search-wrap .best-search-box.searching-word li:last-child {margin-bottom:0;}
+.best-search-wrap .best-search-box.searching-word li:before {display:block;position:absolute;left:0;top:7px;width:3px;height:3px;background:#3e95ed;content:'';}
+.best-search-wrap .best-search-box.searching-word li a {display:block;font-size:13px;}
+
+/* ìžë£Œë³´ìœ í˜„í™© */
+.date-keep-wrap {max-width:1100px;padding:20px 20px;width:100%;height:100%;}
+.date-keep-wrap h1 {padding-left:20px;padding-bottom:10px;border-bottom:2px solid #b3c7cf;font-size:24px;color:#506590;background:url(/site/kotranews/images/common/bullet-donut.png) left 8px no-repeat;font-weight:bold;}
+.date-keep-area .line-box {position:relative;padding:15px 0 15px 0;margin-top:0px;border:1px solid #e0e0e0;}
+.date-keep-area .line-box:before {position: absolute;left: 2px;top: 2px;right: 2px;bottom: 2px;background: #f7f7f7;z-index: -1;content: '';}
+.date-keep-area .line-box .bullet-list {padding:3px 10px 3px 10px;color:#000;font-size:14px;}
+.date-keep-area .line-box .bullet-list li {margin-bottom:6px;}
+.date-keep-area .line-box .bullet-list li:before {top:10px;}
+.date-keep-area .line-box span {font-weight:bold;line-height:inherit;}
+.date-keep-area .line-box .btn-data-print {width:50px;position:absolute;right:15px;bottom:15px;height:28px;line-height:28px;background:#4676be;color:#fff;text-align:center;}
+.date-keep-area .bullet-list {padding:0;}
+.date-keep-area .bullet-list li {line-height:1.6;padding-left:18px;background: url(/site/kotranews/images/common/bullet-list-arrow.png) 0 6px no-repeat;}
+.date-keep-area .bullet-list li:before {display:none;}
+.date-keep-area .bullet-list li:last-child {margin-bottom:0;}
+.date-keep-area .tit-gray-line {margin-top:20px;margin-bottom:5px;padding-left:15px;background:url(/site/kotranews/images/sub/bullet-library-star.png) 0 4px no-repeat;background-size:10px;font-size:16px;padding-bottom:0;}
+.date-keep-area .tab-wrap {margin-bottom: 20px;}
+
+.date-keep-area table {border-bottom:2px solid #8f97a3;margin-top:10px;table-layout:auto;}
+.date-keep-area table thead tr {height:38px;background:url(/site/kotranews/images/common/pattern-dia.gif) 0 0 ;}
+.date-keep-area table thead th {position:relative;padding:0 10px;font-size:15px;color:#fff;}
+.date-keep-area table thead th:before {display:inline-block;position:absolute;left:0;top:9px;width:1px;height:21px;content:'';background:#adb6c7;}
+.date-keep-area table thead th:before:first-child {background:none;}
+.date-keep-area table tbody th {background:#f5f5f5;line-height:1.5 !important;}
+.date-keep-area table tbody tr {border-bottom:1px solid #e0e0e0;}
+.date-keep-area table tbody td {padding:9px 20px;background:#fff;line-height:1.5 !important;}
+.date-keep-area table tbody th *,
+.date-keep-area table tbody td * {font-size:14px !important;line-height:1.5 !important;}
+.date-keep-area table tbody br {display:none;}
+.date-keep-area table tbody th b,
+.date-keep-area table tbody th strong {line-height:1.5 !important;}
+.date-keep-area table tbody td ul{}
+.date-keep-area table tbody li {position:relative;margin-bottom:4px;padding-left:13px;}
+.date-keep-area table tbody li:before {position:absolute;left:0px;top:9px;display:inline-block;background:#0669B2;width:6px;height:2px;content:'';}
+.date-keep-area table tbody li:last-child {margin-bottom:0;}
+.date-keep-area table tbody td ul > p {display:none;}
+.date-keep-area table .pdf {display:inline-block;padding:3px 10px;color:#fff;background:#f60101;}
+.date-keep-area table .blue {color:#0C62CA;font-weight:bold;}
+
+.date-keep-area ul.list01 li {position:relative;line-height:1.7;margin-bottom:5px;padding-left:13px;}
+.date-keep-area ul.list01 li:before {position:absolute;left:0px;top:11px;display:inline-block;background:#0669B2;width:6px;height:2px;content:'';}
+.date-keep-area ul.list01 li:last-child {margin-bottom:0;}
+.date-keep-area ul.list01 li * {font-size:14px !important;line-height:inherit;}
+
+.date-keep-area .tab-wrap li a {font-size:15px;}
+
+
+/* ì‚¬ì´íŠ¸ë§µ */
+.site-map-wrap {margin-bottom:35px;border-top:2px solid #a9a9a9;}
+.site-map-wrap .site-map-depth {display:table;padding:30px 0;border-bottom:1px solid #e3e3e3;}
+.site-map-wrap .site-map-depth:nth-child(1) {}
+.site-map-wrap .site-map-depth h5 {display: table-cell;vertical-align: middle;width:160px;position:relative;}
+/* .site-map-wrap .site-map-depth h5:before {position:absolute;right:15px;top:50%;width:1px;height:44px;margin-top:-22px;content:'';background:#d1d1d1;} */
+/* .site-map-wrap .site-map-depth:nth-child(4) h5:before {height:72px;margin-top:-36px;} */
+.site-map-wrap .site-map-depth h5 a {color:#14486a;font-size:20px;}
+.site-map-wrap .site-map-depth ul {display:table-cell;width:678px;vertical-align:middle;}
+
+
+.site-map-wrap .site-map-depth ul li {position:relative;float:left;padding-left:10px;margin-right:28px;}
+.site-map-wrap .site-map-depth ul li:before {position:absolute;left:0;top:12px;width:3px;height:3px;background:#ff7272;content:'';}
+.site-map-wrap .site-map-depth ul li a {display:inline-block;color:#393939;font-size:15px;padding: 5px 0;}
+
+
+/* ë¡œê·¸ì¸ */
+.login-wrap {border:3px solid #1bb198;padding:40px 170px;text-align:center;font-size:14px;}
+.login-wrap > h5 {margin-bottom:20px;font-size:50px;color:#565757;}
+.login-wrap > p {margin-bottom:20px;font-weight:bold;font-size:15px;color:#373737;}
+.login-wrap .login-input-wrap {position:relative;margin:0 10px 30px 10px;padding:20px 20px;border:1px solid #afafaf;background:#f7f7f7;}
+.login-wrap .login-input-wrap .login-input-id p {float:left;width:78px;color:#373737;text-align:center;line-height:28px;font-weight:bold;}
+.login-wrap .login-input-wrap .login-input-id p label {display:block;line-height:28px;}
+.login-wrap .login-input-wrap .login-input-id input {float:left;width:242px;}
+.login-wrap .login-input-wrap .btn-login {position:absolute;right:38px;top:20px;width:77px;height:69px;border:1px solid #b2b9b8;background:#effbff;text-align:center;color:#000;line-height:69px;}
+.login-wrap .none-member-area {margin-top:45px;color:#373737;font-size:15px;line-height:42px;font-weight:bold;}
+.login-wrap .btn-none-member-cart {display:inline-block;margin-left:10px;padding:12px 15px 12px 55px;border:2px solid #dedede;background:url(/site/kotranews/images/sub/icon-cart.png) 14px center no-repeat;color:#000;}
+.login-wrap .btn-none-member-cart:hover {background-color:#FDFDFD;}
+.login-wrap .btn-none-member-cart.btn-none-member-check {background:url(/site/kotranews/images/sub/icon-check.png) 14px center no-repeat;}
+.login-wrap .login-info-wrap {text-align:center;border-top:1px solid #e0e0e0;padding-top:20px;}
+.login-wrap .login-info-wrap p {display:inline-block;padding-left:20px;line-height:26px;margin-bottom:5px;font-size:15px;background:url(/site/kotranews/images/common/icon-search.png) no-repeat 0 center}
+.login-wrap .login-info-wrap li{display:inline-block;margin-right:30px;padding-left:10px;background:url(/site/kotranews/images/common/arrow-right.png) no-repeat 0 center;}
+.login-wrap .login-info-wrap li:last-child {margin-right:0;}
+.login-wrap .login-info-wrap li strong {display:inline-block;line-height:26px;}
+.login-wrap .login-info-wrap li a {display:inline-block;padding:5px 20px;background:#218E8B;margin-left:10px;color:#fff;}
+.login-wrap .login-info-wrap ul.col3 {margin:0 -80px}
+
+
+/* ê°„í–‰ë¬¼ ë¡œê·¸ì¸ */
+.login-wrap.cart-login-wrap {}
+.login-wrap.cart-login-wrap > h5 {font-size:27px;}
+.login-wrap.cart-login-wrap > p{font-size:18px;background:url(/site/kotranews/images/common/bullet-donut.png) no-repeat 4px 6px;text-align:left;padding-left:20px;}
+.login-wrap.cart-login-wrap > p + span {display:block;padding-left:10px;font-size:15px;margin-bottom:10px;text-align:left;color:#3A5BA0;font-weight:bold;line-height:1.4;}
+.login-wrap.cart-login-wrap .login-info-wrap {margin:0 -40px;border-top: 0;padding-top:0;}
+.login-wrap.cart-login-wrap .login-info-wrap li {margin-right:20px;}
+.login-wrap.cart-login-wrap .login-info-wrap li a {padding:5px 9px;}
+
+.login-wrap.cart-login-wrap.popup {width:533px;margin:20px;padding:20px;}
+.login-wrap.cart-login-wrap.popup .login-input-id p {width:100px;}
+.login-wrap.cart-login-wrap.popup .login-input-id input {width:221px;}
+.login-wrap.cart-login-wrap.popup .btn-login {height:111px;}
+.login-wrap.cart-login-wrap.popup .login-info-wrap {margin:0 10px 0px 10px}
+.login-wrap.cart-login-wrap.popup .login-info-wrap ul {display:inline-block;margin-left:20px;}
+
+
+/* ì‚°ì—…DB */
+.industry-map-wrap {border-top:2px solid #7a7a7a;padding-top:30px;}
+.industry-map-wrap > p {line-height:1.6;margin-bottom:10px;}
+.industry-map-wrap .industry-map {position:relative;}
+.industry-map-wrap .industry-map img + img {position:absolute;right:0;top:0;}
+.industry-map-wrap .industry-list {padding:34px 35px 13px 35px;border-left:1px solid #cacaca;border-right:1px solid #cacaca;border-bottom:1px solid #cacaca;}
+.industry-map-wrap .industry-list ul > li {float:left;position:relative;width:176px;margin-right:19px;margin-bottom:20px;padding-left:37px;height:30px;line-height:30px;}
+.industry-map-wrap .industry-list ul > li:nth-child(4n) {margin-right:0}
+.industry-map-wrap .industry-list ul > li:before {position:absolute;left:0;top:0;width:33px;height:30px;line-height:28px;content:'';text-align:center;color:#fff;font-size:14px;background:url(/site/kotranews/images/sub/icon-industy-split.png) no-repeat;cursor:pointer}
+
+.industry-map-wrap .industry-list ul > li:nth-child(1):before{background-position:-5px -4px;}
+.industry-map-wrap .industry-list ul > li:nth-child(2):before{background-position:-51px -5px;}
+.industry-map-wrap .industry-list ul > li:nth-child(3):before{background-position:-6px -46px;}
+.industry-map-wrap .industry-list ul > li:nth-child(4):before{width:36px;background-position:-100px -4px;}
+
+
+.industry-map-wrap .industry-list ul > li:nth-child(5):before{background-position:-142px -5px;}
+.industry-map-wrap .industry-list ul > li:nth-child(6):before{background-position:-141px -51px;}
+.industry-map-wrap .industry-list ul > li:nth-child(7):before{background-position:-52px -51px;}
+.industry-map-wrap .industry-list ul > li:nth-child(8):before{background-position:-101px -49px;}
+
+
+.industry-map-wrap .industry-list ul > li:nth-child(9):before{background-position:-2px -97px;}
+.industry-map-wrap .industry-list ul > li:nth-child(10):before{background-position:-6px -143px;}
+.industry-map-wrap .industry-list ul > li:nth-child(11):before{background-position:-52px -96px;}
+.industry-map-wrap .industry-list ul > li:nth-child(12):before{background-position:-97px -94px;}
+
+
+.industry-map-wrap .industry-list ul > li:nth-child(13):before{background-position:-98px -142px;}
+.industry-map-wrap .industry-list ul > li:nth-child(14):before{background-position:-143px -94px;}
+.industry-map-wrap .industry-list ul > li:nth-child(15):before{background-position:-50px -142px;}
+.industry-map-wrap .industry-list ul > li:nth-child(16):before{background-position:-141px -140px;}
+
+
+.industry-map-wrap .industry-list ul > li:nth-child(17):before{background-position:-1px -186px}
+.industry-map-wrap .industry-list ul > li:nth-child(18):before{background-position:-50px -186px}
+
+
+.industry-map-wrap .industry-list ul > li > a {display:block;font-size:15px;line-height:30px;}
+.industry-map-wrap .industry-list ul > li.on > a,
+.industry-map-wrap .industry-list ul > li > a:hover {font-weight:bold;}
+
+/* ì˜¤ì‹œëŠ”ê¸¸ */
+.direction-map-wrap {border-top:2px solid #6f7b89;padding-top:25px;}
+.direction-map-wrap .tab-direction {padding-bottom:22px;border-bottom:1px solid #dbdbdb;}
+.direction-map-wrap .tab-direction li {float:left;width:164px;margin-left:3px;}
+.direction-map-wrap .tab-direction li:first-child {margin-left:0}
+.direction-map-wrap .tab-direction li a {display:block;height:55px;background:#f2f2f2;color:#585858;font-size:17px;font-weight:bold;border:1px solid #d6d6d6;line-height:52px;}
+.direction-map-wrap .tab-direction li.on a {background:#fff;border:2px solid #ff6a48;color:#ff6a48;}
+.direction-map-wrap .tab-direction li a span {display:inline-block;height:100%;background:url(/site/kotranews/images/sub/icon-direction.png) no-repeat;}
+.direction-map-wrap .tab-direction li a span.car {margin-left:18px;margin-right:30px;width:30px;background-position:-5px center;}
+.direction-map-wrap .tab-direction li a span.subway {margin-left:21px;margin-right:26px;width:30px;background-position:-51px center ;}
+.direction-map-wrap .tab-direction li a span.bus {margin-left:26px;margin-right:36px;width:23px;background-position:-95px center ;}
+.direction-map-wrap .tab-direction li a span.parking {margin-left:18px;margin-right:20px;width:30px;background-position:-134px center ;}
+.direction-map-wrap .tab-direction li a span.shuttle {margin-left:18px;margin-right:20px;width:40px;background-position:-178px center ;}
+.direction-map-wrap .tab-direction li.on a span {background:url(/site/kotranews/images/sub/icon-direction-on.png) no-repeat;}
+.direction-map-wrap .tab-direction li.on a span.car {background-position:-5px center ;}
+.direction-map-wrap .tab-direction li.on a span.subway {background-position:-51px center ;}
+.direction-map-wrap .tab-direction li.on a span.bus {background-position:-95px center ;}
+.direction-map-wrap .tab-direction li.on a span.parking {background-position:-134px center ;}
+.direction-map-wrap .tab-direction li.on a span.shuttle {background-position:-178px center ;}
+
+.direction-map-wrap .btn-parking {padding:11px 0;background:#173f82;color:#fff;font-size:17px;font-weight:bold;width:143px;text-align:center;}
+.direction-map-wrap .btn-parking:before {display:inline-block;width:30px;height:30px;margin-right:10px;content:'P';border:3px solid #fff;border-radius:50%;font-weight:bold;line-height:24px;}
+
+.direction-info {padding:30px 0 30px 0;margin-bottom:25px;border-bottom:1px solid #dbdbdb}
+.direction-info h5 {font-size:18px;margin-bottom:8px;}
+.direction-info h6 {font-size:17px}
+.direction-info p {float:left;font-size:16px;line-height: 1.5;}
+.direction-info p .orange {color:#983719;font-weight:bold;}
+.direction-info span {line-height: inherit;}
+
+.kotra-direction-map {margin-bottom:35px;}
+
+.direction-info-seoul {margin-bottom:40px;}
+.direction-info-seoul h5{font-size:17px;border-bottom:2px solid #a9a9a9;padding-bottom:10px;margin-bottom:20px;}
+.direction-info-seoul h6 {padding-left:26px;font-size:16px;color:#a44e23;background:url(/site/kotranews/images/sub/icon-compass.png) 0 center no-repeat;margin-bottom:11px;}
+.direction-info-seoul .map-list {margin-bottom:25px;}
+.direction-info-seoul .map-list li {float:left;font-size:14px;margin-bottom:10px;}
+.direction-info-seoul .map-list li:after {display:inline-block;width:28px;height:4px;margin:0 10px 3px 10px;content:'';background:url(/site/kotranews/images/sub/bullet-dotted.png) no-repeat;}
+.direction-info-seoul .map-list li:last-child:after {background:none;}
+
+.map-car-info h5 {font-size:19px;padding-left: 45px;margin-bottom:10px;background:url(/site/kotranews/images/sub/icon-car-blue.png) 0 center no-repeat;}
+.map-car-info h5.icon-speaker {background:url(/site/kotranews/images/sub/icon-speacker-green.png) 0 center no-repeat;}
+.map-car-info h5.icon-word-ballon {padding-left:40px;background:url(/site/kotranews/images/sub/icon-word-boolen-orange.png) 0 center no-repeat;}
+.map-car-info h5.icon-none {padding-left:0;background:none;}
+.map-car-info h5 + p {margin-bottom:18px;font-size:16px;}
+.map-car-info h5.icon-word-ballon + p {font-size:14px;line-height:25px;}
+.map-car-info h6 {margin-bottom:5px;font-size:16px;}
+.map-car-info h6.icon-map-in {width:140px;background:url(/site/kotranews/images/sub/icon-map-in.png) right center no-repeat;}
+.map-car-info h6.icon-map-out {width:140px;background:url(/site/kotranews/images/sub/icon-map-out.png) right center no-repeat;}
+.map-car-info p {margin-bottom:9px;font-size:14px;line-height:1.6;}
+.map-car-info p.blue {color:#4063ba;}
+.map-car-info span {line-height: inherit;color:#c94700;font-weight:bold;}
+
+.direction-bus-map h5 {margin-bottom:13px;font-size:18px;}
+.direction-bus-map h5.circle {line-height:36px}
+.direction-bus-map h5.circle:before {display:inline-block;width:36px;height:36px;margin-right:10px;margin-top:-3px;content:'';border-radius:50%;vertical-align: middle;}
+.direction-bus-map h5.icon-blue:before {background:#3059d7;}
+.direction-bus-map h5.icon-green:before {background:#13be43;}
+.direction-bus-map h5.icon-red:before {background:#ff3e06;}
+
+.direction-bus-map .tbl-style05 th {font-size:17px;line-height:1.4}
+.direction-bus-map .tbl-style05 td {font-size:14px;line-height:1.6}
+.direction-bus-map .tbl-style05 td span.blue {color:#3474c0;font-weight:bold;line-height:inherit}
+
+.direction-bus-map .bullet-map-pointer {padding-left:25px;font-size:14px;margin-top:5px;background:url(/site/kotranews/images/sub/icon-map-pointer2.png) 0 center no-repeat;line-height:36px;}
+
+
+/* ìˆ˜ì •2016-08-05 */
+.direction-map-wrap {}
+.direction-map-wrap .tab-direction-img {position:relative;height:712px;margin-bottom:40px;}
+.direction-map-wrap .tab-direction-img li {position:absolute;left:0;top:0;width:833px;height:712px;}
+.direction-map-wrap .tab-direction-img li a {display:block;position:absolute;left:12px;top:11px;z-index:10;height:15px;width:67px;height:67px;background:#fff;border:1px solid #ccc;text-align:center;}
+.direction-map-wrap .tab-direction-img li:nth-child(2) a {left:88px;}
+.direction-map-wrap .tab-direction-img li:nth-child(3) a {left:164px;}
+.direction-map-wrap .tab-direction-img li a:hover {border:1px solid #ff3e1e}
+.direction-map-wrap .tab-direction-img li.on a {background:#ff3e1e;color:#fff;}
+.direction-map-wrap .tab-direction-img li a span {display:block;height:42px;margin:0 0;background:url(/site/kotranews/images/sub/icon-direction2.png) 19px 7px no-repeat;}
+.direction-map-wrap .tab-direction-img li:nth-child(2) a span {background-position:-57px 8px;}
+.direction-map-wrap .tab-direction-img li:nth-child(3) a span {background-position:-133px 9px;}
+.direction-map-wrap .tab-direction-img li.on a span {background-image:url(/site/kotranews/images/sub/icon-direction2-on.png);}
+.direction-map-wrap .tab-direction-img li img {display:none;width:833px;height:712px;}
+.direction-map-wrap .tab-direction-img li.on img {display:block;}
+
+.direction-map-wrap .direction-address {position:relative;margin-bottom:18px;}
+.direction-map-wrap .direction-address address {font-size:25px;font-weight:bold;margin-bottom:20px;}
+.direction-map-wrap .direction-address p strong {font-size:15px;display:inline-block;margin-right:40px;}
+.direction-map-wrap .direction-address .btn-naver-map {display:block;padding:16px 30px;position:absolute;right:0;top:5px;background:#22b600;color:#fff;font-size:16px;text-align:center;font-weight: bold;}
+
+
+.direction-map-wrap .direction-way {padding:18px 0;border-top:1px solid #dbdbdb}
+.direction-map-wrap .direction-way h5 {font-size:18px;margin-bottom:14px;}
+.direction-map-wrap .direction-way > ul > li {line-height:21px;margin-bottom:12px;}
+.direction-map-wrap .direction-way > ul.col3 > li {float:left;width:30%}
+.direction-map-wrap .direction-way > ul.col3 > li:nth-child(3n-2) {width:40%;}
+.direction-map-wrap .direction-way > ul.col2 > li {float:left;width:50%;padding-right:20px;}
+.direction-map-wrap .direction-way > ul > li strong {font-size:15px;line-height:inherit;}
+.direction-map-wrap .direction-way > ul > li > span {display:inline-block;width:21px;height:21px;margin-right: 5px;border-radius:50%;color:#fff;font-size:16px;line-height:inherit;text-align:center;font-weight:bold;}
+.direction-map-wrap .direction-way > ul > li > span.blue {background:#529bff;}
+.direction-map-wrap .direction-way > ul > li > span.orange {background:#ff7e00;}
+.direction-map-wrap .direction-way > ul > li > span.purple {background:#9f00da;}
+.direction-map-wrap .direction-way > ul > li > span.hotpink {background:#da006c;}
+.direction-map-wrap .direction-way > ul > li > span.green {background:#5ab124;}
+.direction-map-wrap .direction-way > ul > li > span.red {background:#ff2700}
+.direction-map-wrap .direction-way > ul > li > ul {position:relative;margin: 15px 0 25px 7px;}
+.direction-map-wrap .direction-way > ul > li > ul:before {display:inline-block;position:absolute;left:7px;top:6px;width:3px;height:111px;background:url(/site/kotranews/images/sub/bullet-dotted-vertical.jpg) repeat-y;content:'';}
+.direction-map-wrap .direction-way > ul > li:nth-child(3) > ul:before {height:90px;}
+.direction-map-wrap .direction-way > ul > li:nth-child(4) > ul:before {height:125px;}
+.direction-map-wrap .direction-way > ul > li > ul > li {position:relative;padding-left:20px;margin-bottom:12px;line-height:1.3;}
+.direction-map-wrap .direction-way > ul > li > ul > li:before {display:inline-block;width:7px;height:7px;position:absolute;left:4px;top:5px;background:#808080;content:'';border-radius:50%;}
+
+.direction-map-wrap .direction-info {display:none;border-top:1px solid #dbdbdb;margin-top:20px;}
+.direction-map-wrap .direction-info.on {display:block;}
+.direction-map-wrap .map-car-info {display:none;}
+.direction-map-wrap .map-car-info.on {display:block;}
+
+/* RSSì´ìš© */
+.RSS-wrap {border-top:2px solid #a9a9a9;}
+.RSS-wrap > img {margin: 30px 40px 40px 40px;}
+.RSS-wrap > h5 {padding-left: 32px;padding-bottom: 7px;margin-bottom: 10px;border-bottom: 2px solid #a9a9a9;font-size: 18px; color: #2d5387;}
+.RSS-wrap > h5.icon-dotdotdot {background: url(/site/kotranews/images/common/icon-dotdotdot_orange.png) no-repeat 3px 2px;}
+.RSS-wrap > h5.icon-list {padding-left:28px;background: url(/site/kotranews/images/common/icon-list_orange.png) no-repeat 3px 2px;}
+.RSS-wrap > p {font-size:14px;line-height:1.5}
+.RSS-wrap .tbl-style04 th {padding: 10px 5px;}
+.RSS-wrap .tbl-style04 thead th:before {top: 9px;}
+.RSS-wrap .tbl-style04 td {padding: 8px 20px;}
+.RSS-wrap .tbl-style04 td a {display:inline-block;}
+.RSS-wrap .tbl-style04 td.bg-arrow {background:url(/site/kotranews/images/sub/map_select_arr.gif) 95% center no-repeat;cursor:pointer}
+.RSS-wrap .table-visible {display:none;background:#fafafa}
+.RSS-wrap .table-visible.on {display:table-row;}
+.RSS-wrap .table-visible td {padding: 0;}
+.RSS-wrap .table-visible p {padding: 8px 20px 8px 40px;border-bottom:1px solid #d5d5d5;}
+.RSS-wrap .table-visible p:last-child {border-bottom:0;}
+.RSS-wrap .table-visible p > a {float:right;margin-right:22px;}
+
+/* ì´ë©”ì¼ ì „ì†¡ íŒì—… */
+.email-post-popup {padding:25px 20px;margin:20px 20px;border:1px solid #E4E4E4;border-radius:5px;box-shadow:2px 2px 12px #ECECEC;min-width:320px;}
+.email-post-popup h1{color: #2d5387;font-size:19px;padding-bottom:11px;}
+.email-post-popup h1 + p {line-height:1.4;font-size:15px}
+.email-post-popup .tbl-style02 {border-top:2px solid #6c86ab;}
+.email-post-popup table input{width:100%;}
+.email-post-popup table textarea{width:100%;}
+.email-post-popup .tbl-style02 .bb1{border-bottom:1px solid #bebebe }
+.email-post-popup .tbl-style02 .con {padding:13px 10px}
+.email-post-popup .btn-area {margin-top:20px}
+.email-post-popup .bullet-list {padding: 3px 3px 3px 3px;}
+.email-post-popup .bullet-list li {font-size:15px;}
+
+.email-post-popup.logo-show {background: url(/site/kotranews/images/common/k-logo.png) no-repeat 95% 12px;background-size:114px}
+
+.veiwer-list {display:inline-block;}
+.veiwer-list li {margin-bottom:9px;text-align:left}
+.veiwer-list li img {vertical-align:middle;}
+
+/* ìš°íŽ¸ë²ˆí˜¸ì°¾ê¸° íŒì—… */
+.zipcode-popup-wrap {min-width:700px;margin:0 auto;padding: 20px;}
+.zipcode-popup-wrap h1 {padding-left:20px;padding-bottom:10px;border-bottom:2px solid #b3c7cf;font-size:24px;color:#506590;background:url(/site/kotranews/images/common/bullet-donut.png) left 8px no-repeat;font-weight:bold;}
+.zipcode-popup-wrap .zipcode-search-wrap {margin-top:25px;padding:14px 20px;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f4f8fa;}
+.zipcode-popup-wrap .zipcode-search-wrap input {float:left;width:126px;width:-webkit-calc(100% - 154px);width:-moz-calc(100% - 154px);width:-moz-calc(100% - 154px);width:calc(100% - 154px)}
+.zipcode-popup-wrap .zipcode-search-wrap button{float:left;width: 143px;height:28px;padding-left: 15px;border:none;margin-left:11px;background: url(/site/kotranews/images/common/icon-search-white.png) 16px center no-repeat #4676be;color: #fff;line-height: 28px;}
+.zipcode-popup-wrap .bullet-num {padding:20px 10px;}
+.zipcode-popup-wrap .bullet-num li {margin-bottom: 5px;line-height:1.3}
+.zipcode-popup-wrap .bullet-num li:before {background:#ff6d00;}
+.zipcode-popup-wrap .bbs-search-page {margin-bottom:0;}
+.zipcode-popup-wrap .tbl-style04 {border-top:0;}
+.zipcode-popup-wrap .tbl-style04 thead th {background:#56a8ca;color:#fff;padding: 10px 5px;font-size:18px;}
+.zipcode-popup-wrap .tbl-style04 thead th:before {background:#fff;}
+.zipcode-popup-wrap .tbl-style04 thead tr {border-bottom:0;}
+.zipcode-popup-wrap .tbl-style04 tbody th {background:#fff;border-right:1px solid #d5d5d5;font-size:16px;color:#696969;}
+.zipcode-popup-wrap .tbl-style04 tbody td {padding:4px 15px;font-size:16px;color:#696969;}
+.btn-popup-del {padding:7px 13px 8px 36px;background:#3256a0 url(/site/kotranews/images/common/icon-popup-del.png) 16px center no-repeat;color:#fff;border-radius:5px;font-size:16px;}
+
+/* ì´ì „ìœ¼ë¡œ */
+.icon-page-back {margin: 20px 0 10px 0;}
+.icon-page-back a {display:inline-block;line-height:2}
+.icon-page-back a:before {content:'â†';font-size:20px;font-weight:800;margin-right:2px;line-height:1.6}
+
+@media screen and (max-width:768px){
+	.zipcode-popup-wrap {padding:20px 10px;width:100%;min-width:320px;}
+	.zipcode-popup-wrap h1 {padding-left:14px;font-size:18px;background:url(/site/kotranews/images/common/bullet-donut.png) left 6px no-repeat}
+	.icon-page-back {margin: 4px 0 3px 0;}
+	#searchCode {margin-right:5px !important}
+
+	.zipcode-popup-wrap .bbs-search-page {margin-bottom:0;}
+	.zipcode-popup-wrap .bbs-search-page .bbs-search-top .bbs-con {float:none;}
+	.zipcode-popup-wrap #searchCode {width:calc( 35% - 5px ) !important;}
+	.zipcode-popup-wrap #searchName {width:-webkit-calc( 65% - 66px ) !important;width:-moz-calc( 65% - 66px ) !important;width:-ms-calc( 65% - 66px ) !important;width:calc( 65% - 66px ) !important;}
+
+	.zipcode-popup-wrap .seed_tbl {overflow-x:scroll}
+	.zipcode-popup-wrap .seed_tbl table {min-width: 600px;}
+}
+
+
+/* í•´ì™¸ì‹œìž¥ë‰´ìŠ¤ ë·°íŽ˜ì´ì§€ */
+.global-news-view-wrap {border-top:2px solid #a9a9a9;padding:35px 25px 90px 25px}
+.global-news-view-wrap .tit {font-size:25px;color:#3f3f3f;line-height: 1.4;padding-bottom:20px;}
+.global-news-view-wrap .etc-list {padding-bottom:35px;}
+.global-news-view-wrap .etc-list li {position:relative;float:left;font-size:15px;}
+.global-news-view-wrap .etc-list li:after{margin:0 10px;content:'|';color:#999999;}
+.global-news-view-wrap .etc-list li:last-child:after{content:'';}
+.global-news-view-wrap .global-news-content {line-height:1.9}
+.global-news-view-wrap .global-news-content * {font-family: 'Open Sans', 'Nanum Gothic','ë‚˜ëˆ”ê³ ë”•', NanumGothic, Arial, Helvetica, sans-serif !important;font-size:14px !important;line-height:1.9 !important;}
+.global-news-view-wrap .global-news-content i {font-style:italic;}
+.global-news-view-wrap .global-news-content em {font-style:italic;}
+
+/* ì²¨ë¶€íŒŒì¼ */
+.attach-file-wrap {display:table;width:100%;margin-top:30px;}
+.attach-file-wrap h5 {display:table-cell;width:65px;padding: 0px 0 0px 0;color:#2746cd;font-size:14px;background-size:9px 17px;vertical-align:middle;}
+.attach-file-wrap p {display:table-cell;padding:10px 0 10px 0;}
+.attach-file-wrap p a {display:block;font-size:14px;color:#2746cd;line-height:1.7;}
+.attach-file-wrap p a img {vertical-align:middle;}
+
+/* ë„ì›€ë§ */
+.library-help-wrap {border-top:2px solid #7a7a7a;padding-top:25px;}
+.library-help-wrap h5 {padding:0 0 10px 14px;background:url(/site/kotranews/images/sub/bullet-library-star.png) no-repeat 0 4px;font-size:16px;background-size:10px;}
+.library-help-wrap h6 {margin-bottom:8px;font-size:16px;text-indent:-25px}
+.library-help-wrap .dual-line-box {position:relative;padding:18px 18px 18px 45px;border:1px solid #d8d8d8;margin-bottom:20px;}
+.library-help-wrap .dual-line-box:before {position:absolute;left:2px;right:2px;top:2px;bottom:2px;z-index:-1;content:'';background:#f7f7f7;}
+.library-help-wrap .dual-line-box .list li{margin-bottom:7px;line-height:1.5;text-indent:-25px;}
+.library-help-wrap .dual-line-box .list li:last-child {margin-bottom:0;}
+.library-help-wrap .dual-line-box .list li span {line-height:inherit;margin-right:5px;font-size:13px;color:#2767A2;font-weight:bold;}
+
+/* ì•Œë¦¼íŒì—… */
+.alert-popup-wrap {width:100%;min-width:500px;}
+.alert-popup-wrap h1 {padding:14px 0 14px 26px;margin-bottom:10px;background:#5c84b6;color:#fff;font-size:18px;}
+.alert-popup-wrap .alert-popup {border-top:1px solrmffid #c7d3e2;padding:33px 24px;background:#f2f8ff;}
+.alert-popup-wrap .alert-popup p {font-size:15px;color:#605f5f;word-break:keep-all;line-height:1.4;font-weight:bold;}
+.alert-popup-wrap .alert-popup p .red {line-height:inherit;color:#b73939;}
+
+/* ì•¨ë²”ê²Œì‹œíŒ. ì´ë¯¸ì§€ìŠ¬ë¼ì´ë“œ */
+.tbl-style02 .fileSlideWrap {height:114px;border-left:1px solid #cecece;}
+
+/*ì¸ë„¤ì¼*/
+.tbl-style02 .thumbnail-slide {display:none;}
+.tbl-style02 .thumbnail-slide a {float:left;overflow:hidden;display:block;text-decoration:none;width:106px;height:77px;border: 1px solid #e0e0e0;}
+.tbl-style02 .thumbnail-slide a.active {border:2px solid #F10000;}
+.tbl-style02 .thumbnail-slide a > img {width:100%;min-height:75px}
+
+/*í°ì´ë¯¸ì§€ìŠ¬ë¼ì´ë“œ*/
+
+.tbl-style02 .once-slide {display:none;position:relative;max-height:690px;min-height:480px;overflow:hidden;text-align: center;}
+.tbl-style02 .once-slide >div {position:relative !important;height:100%;padding:20px 0;vertical-align:middle;}
+.tbl-style02 .once-slide img{width:auto !important;max-width:681px;margin: auto 0;max-height: 650px;}
+
+
+/*ë²„íŠ¼*/
+.thumbnail-slide-wrap,
+.once-slide-wrap {position:relative;}
+.once-slide-wrap {background-color: #f5f5f5;margin-bottom:15px;}
+.once-slide-wrap .bx-viewport {display:table-cell;vertical-align: middle;}
+/*.once-slide-wrap > div {display:table}*/
+.thumbnail-slide-wrap .bx-prev {position:absolute;top:50%;left:-35px;width:20px;height:40px;margin-top:-20px;background:url(/site/kotranews/images/main/btn-column-prev.png) center center no-repeat;outline:none;text-indent: -999em;}
+.thumbnail-slide-wrap .bx-next {position:absolute;top:50%;right:-35px;width:20px;height:40px;margin-top:-20px;background:url(/site/kotranews/images/main/btn-column-next.png) center center  no-repeat;outline:none;text-indent: -999em;}
+
+.once-slide-wrap .bx-prev {position:absolute;top:50%;left:10px;width:20px;height:50px;margin-top:-25px;background:url(/site/kotranews/images/main/btn-column-prev.png) center center no-repeat;outline:none;text-indent: -999em;z-index:999;}
+.once-slide-wrap .bx-next {position:absolute;top:50%;right:10px;width:20px;height:50px;margin-top:-25px;background:url(/site/kotranews/images/main/btn-column-next.png) center center  no-repeat;outline:none;text-indent: -999em;z-index:999;}
+
+.fileDownLink{font-weight:700;text-decoration:underline;color:#3572C4;}
+
+/* itc-trademap */
+.new-window-site-wrap {border-top:2px solid #7a7a7a;padding-top:50px;}
+.new-window-site-wrap .new-site-move {overflow:hidden;position:relative;padding:120px 0 120px 370px;border:1px solid #a6a6a6;background:url(/site/kotranews/images/sub/bg-new-window2.png) no-repeat 60px 45%;}
+.new-window-site-wrap .new-site-move:before {display:block;position:absolute;left:210px;top:0;right:-140px;bottom:0;background:#FBFBFB;content:'';z-index:-1;-webkit-transform: skewX(-37deg);-moz-transform: skewX(-37deg);-ms-transform: skewX(-37deg);transform: skewX(-37deg);}
+.new-window-site-wrap .new-site-move h5 {font-size:28px;color:#685e5e;margin-bottom:35px;}
+.new-window-site-wrap .new-site-move a {display:inline-block;color:#Fff;padding:10px 20px 10px 44px;font-size:25px;margin-left:100px;background:url(/site/kotranews/images/common/bullet-circle-arrow.png) 13px center no-repeat #28567a}
+
+.new-window-site-wrap .new-site-move.information-search {padding:120px 0 120px 360px}
+.new-window-site-wrap .new-site-move.information-search h5 {font-size:25px;margin-bottom:26px;}
+.new-window-site-wrap .new-site-move.information-search ul {}
+.new-window-site-wrap .new-site-move.information-search ul li {float:left;width:43%;margin-right:10px;margin-bottom:10px;}
+.new-window-site-wrap .new-site-move.information-search ul li a {width:100%;margin-left:0;padding:10px 10px 10px 35px;font-size:16px;background-size:15px;}
+
+/* 2016-08-17 ìˆ˜ì • */
+.itc-map-intro-map {}
+.itc-map-intro-map .itc-map-intro-box {position: relative; padding: 28px 40px 28px 40px;border: 1px solid #d8d8d8;margin-bottom: 15px;}
+.itc-map-intro-map .itc-map-intro-box:before {position:absolute;left:2px;right:2px;top:2px;bottom:2px;z-index:-1;content:'';background:#f7f7f7;}
+.itc-map-intro-map .itc-map-intro-box li {line-height:1.7;font-weight:bold;}
+.itc-map-intro-map .itc-map-intro-box .btn-area {margin-top:20px;}
+.itc-map-intro-map .itc-map-intro-box .btn-area a {display:inline-block;background:url(/site/kotranews/images/common/bullet-circle-arrow.png) 13px center no-repeat #28567a;color:#fff;padding:10px 12px 10px 39px;background-size:20px;}
+.itc-map-intro-map img {width:100%;margin-top:10px;margin-bottom:40px;}
+
+.bbs_bottom_info{position:relative;padding-left:10px;line-height:1.6;margin-top:30px;}
+.bbs_bottom_info span{position:absolute;top:2px;left:0;color:#DE2121;}
+
+/* ì•Œë¦¼íŽ˜ì´ì§€ */
+.message-wrap {position:absolute;left:50%;top:30%;width:700px;margin-left:-350px;padding:40px 0;border:1px solid #b1c7e3;background:#f5f9ff;text-align:center;}
+.message-wrap #message {color:#356fba;font-size:16px;font-weight:bold;}
+
+/* ë‹¬ë ¥  css ìˆ˜ì •*/
+.picker--opened .picker__holder {background:rgba(0, 0, 0, 0.8);transition:inherit}
+.picker__holder {transition:inherit;overflow:hidden;}
+.picker__frame {margin-bottom: 25.5%;}
+
+/* ë²„íŠ¼ìˆ˜ì •2016-08-12 */
+#scrapButton {position:relative;background:#398194;width:auto;padding:0 15px 0 32px}
+#scrapButton:before {display:inline-block;position:absolute;left:0;top:0;background:url(/site/kotranews/images/sub/icon-check-white.png) 5px center no-repeat #347485;content:'';width:20px;height:28px;border-right:1px solid #206c82}
+
+#recommendButton {position:relative;background:#5691d8;width:auto;padding:0 10px 0 30px;}
+#recommendButton:before {display:inline-block;position:absolute;left:0;top:0;background:url(/site/kotranews/images/sub/icon-check-white.png) 5px center no-repeat #4f81bd;content:'';width:20px;height:28px;border-right:1px solid #4575af}
+
+/* ì •ì±…ë™í–¥ìº˜ë¦°ë” */
+.gw-cal{display:block;width:224px;border-radius:3px 3px 0 0;font-size:12px;margin-right:27px;}
+.gw-cal > em{display:block;text-align:center;font-family:Dotum;font-weight:600;color:#688db7;padding-bottom:5px;}
+.gw-cal table{width:100%;}
+.gw-cal thead{border:1px solid #688db7;}
+.gw-cal th,
+.gw-cal td{padding:6px;text-align:center;font-family:Dotum;font-size:12px;}
+.gw-cal thead th{position:relative;color:#fff;background:#688db7;}
+.gw-cal thead th:first-child:before{display:none;}
+.gw-cal thead th:before{content:'';position:absolute;left:0;top:50%;margin-top:-4px;display:block;width:1px;height:8px;background:#a6bbd4}
+.gw-cal td{padding:1px;height:30px;background:#fff;border:1px solid #ededed;}
+.cal-sunday{color:#cb3e3e}
+.cal-saturday{color:#499eff;}
+.cal-active{display:inline-block;width:29px;height:28px;line-height:28px;font-family:Dotum;font-size:12px;background:#9bbbdf;color:#fff;border-radius:3px;}
+
+.gw-event-detail{width:582px;padding-top:19px;}
+.gw-event-detail th,
+.gw-event-detail td{padding:8px;font-family:Dotum;font-size:12px;font-weight:600;text-align:center;}
+.gw-event-detail th{background:#fcfcfc;color:#4b4b4b;}
+.gw-event-detail td{color:#737373;height:29px;}
+.gw-event-detail thead{border:1px solid #e3e3e3;border-bottom:2px solid #b8cbe0;}
+.gw-event-detail tbody tr{border-bottom:1px solid #e7e7e7}
+
+/* 2016-08-23 */
+.bbs-copyright {margin-top:40px;padding:10px 0;border-top:1px solid #BBBBBB;border-bottom:1px solid #BBBBBB;text-align:center;font-size:13px !important;font-weight:bold;}
+.sub-tit-line {display:block;width:100%;border-top:2px solid #7a7a7a;margin-bottom:20px;}
+
+/* íƒ‘ë²„íŠ¼ */
+.btn-news-top {visibility:hidden;opacity:0;background:rgba(59,87,157,1);position:fixed;z-index:999;bottom:0;width:70px;height:65px;font-size: 18px;color: #fff; outline: none;transition:-webkit-transform .3s, opacity .3s, visibility .3s;transition:-moz-transform .3s, opacity .3s, visibility .3s;transition:-ms-transform .3s, opacity .3s, visibility .3s;transition:transform .3s, opacity .3s, visibility .3s;-webkit-transform:translate(0 , 65px);-moz-transform:translate(0 , 65px);-ms-transform:translate(0 , 65px);transform:translate(0 , 65px)}
+.btn-news-top.on {visibility:visible;opacity:1;-webkit-transform:translate(0 , 0);-moz-transform:translate(0 , 0);-ms-transform:translate(0 , 0);transform:translate(0 , 0)}
+
+
+/* ì›”ê°„ìº˜ë¦°ë” */
+h5.month-calender-date {font-size:20px;text-align:center;margin-bottom:18px;font-weight: 400;}
+h5.month-calender-date span.month {display: inline-block;margin-left: 9px;font-size: 28px;vertical-align: bottom;font-weight: 400;}
+
+.month-calender {border-top:2px solid #5da3cd;border-right:1px solid #d2e1eb;}
+.month-calender thead th {padding:12px 0;border-left:1px solid #d2e1eb;border-bottom:1px solid #b0c9da;}
+.month-calender tbody td {position:relative;padding:30px 9px 11px 9px;border-left:1px solid #d2e1eb;border-bottom:1px solid #d2e1eb;vertical-align:bottom;height:122px;}
+.month-calender tbody td.plan-on {background:#F9F9F9;z-index:-1}
+.month-calender thead th:first-child,
+.month-calender tbody td:first-child strong {color:#f11a1a;}
+.month-calender thead th:last-child,
+.month-calender tbody td:last-child strong {color:#2f6b97;}
+.month-calender tbody td strong {position:absolute;left:9px;top:11px;display:block;font-size:13px;margin-bottom:3px;font-family:Dotum;}
+.global-schedule {padding-top:6px;margin-bottom:3px;vertical-align: bottom;}
+.global-schedule + .global-schedule {border-top:1px solid #d8d8d8;}
+.global-schedule img {width: 30px;height:auto;margin-bottom:3px;border:1px solid #BDBDBD;}
+.month-calender-list {padding-top: 60px;margin-bottom: 5px;}
+.month-calender-list h6{padding:13px 0;margin-bottom:25px;border-top:2px solid #3572c4;border-bottom: 1px solid #C3C3C3;background:#F7F7F7;text-align:center;font-size:17px;}
+.month-calender-list ul {position:relative;}
+.month-calender-list ul:before {position:absolute;left:50%;top:0;width:1px;height:100%;background:#d8d8d8;content:'';}
+.month-calender-list li {float:left;position:relative;width:50%;padding:0 25px 0 35px;margin-bottom:20px;height:63px}
+.month-calender-list li strong {display:block;padding:0 10px 0 15px;margin-bottom:5px;}
+.month-calender-list li strong img {width: 30px;height:auto;}
+.month-calender-list li p {position:relative;font-size: 15px; padding-left:12px;line-height:1.4;max-height:38px;font-weight:bold;}
+.month-calender-list li p:before {position: absolute;left: 0;top: 9px;width: 3px;height: 3px;background: #ff7272;content: '';}
+
+.next-calender {position:relative;text-align: right;top: -20px;}
+.next-calender a {overflow:hidden;position: absolute;display:block;left: 300px;top: -22px;width: 11px;height: 20px;background: url(/site/kotranews/images/main/btn-twin-slider-prev.png) no-repeat center center;
+    font-size:0;line-height:0;}
+.next-calender a + a {left:inherit;right:300px;background: url(/site/kotranews/images/main/btn-twin-slider-next.png) no-repeat center center;
+    }
+
+/* ë·°ì–´ ë‹¤ìš´ë¡œë“œ */
+/*
+.viewer-down-wrap {text-align:center;padding:10px;}
+.viewer-down-wrap h1 {text-align:left;padding-left:20px;padding-bottom:10px;margin-bottom:10px;border-bottom:2px solid #b3c7cf;font-size:18px;color:#506590;background:url(/site/kotranews/images/common/bullet-donut.png) left 8px no-repeat;font-weight:bold;}
+.viewer-down-wrap ul{display:inline-block;}
+.viewer-down-wrap ul li {margin-bottom:9px;text-align:left}
+.viewer-down-wrap ul li img {vertical-align:middle;}
+*/
